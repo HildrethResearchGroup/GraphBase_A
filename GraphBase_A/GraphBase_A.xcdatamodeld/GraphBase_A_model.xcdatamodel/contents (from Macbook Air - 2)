@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1487" systemVersion="12A269" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="HNDataItem" representedClassName="HNDataItem" syncable="YES">
+        <attribute name="dateImported" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dateLastModified" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dateLocalizedResourceLastModified" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="displayName" optional="YES" attributeType="String" defaultValueString="No Name" syncable="YES"/>
+        <attribute name="experimentalDetailsFromHeader" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="experimentalNotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileName" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="localizedResourcePath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="graphTemplate" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="HNGraphTemplate" inverseName="dataItems" inverseEntity="HNGraphTemplate" syncable="YES"/>
+        <relationship name="parseTemplate" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="HNParseTemplate" inverseName="dataItems" inverseEntity="HNParseTemplate" syncable="YES"/>
+        <relationship name="treeNode" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="HNTreeNode" inverseName="dataItems" inverseEntity="HNTreeNode" syncable="YES"/>
+    </entity>
+    <entity name="HNGraphTemplate" representedClassName="HNGraphTemplate" syncable="YES">
+        <attribute name="displayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dataItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HNDataItem" inverseName="graphTemplate" inverseEntity="HNDataItem" syncable="YES"/>
+        <relationship name="defaultGraphForCollections" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HNTreeNode" inverseName="defaultGraphTemplate" inverseEntity="HNTreeNode" syncable="YES"/>
+        <relationship name="treeNodes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HNTreeNode" inverseName="graphTemplates" inverseEntity="HNTreeNode" syncable="YES"/>
+    </entity>
+    <entity name="HNParseTemplate" representedClassName="HNParseTemplate" syncable="YES">
+        <attribute name="displayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lineEnd_data" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="lineEnd_expDet" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="lineEnd_header" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="lineStart_data" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="lineStart_expDet" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="lineStart_header" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="separator_dataFields" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="separator_expDetFields" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="separator_expDetUnits" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="separator_headerFields" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="separator_headerUnits" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yesNo_hasData" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="yesNo_hasExpDet" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="yesNo_hasHeader" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="dataItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HNDataItem" inverseName="parseTemplate" inverseEntity="HNDataItem" syncable="YES"/>
+        <relationship name="defaultParseTemplateForCollections" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HNTreeNode" inverseName="defaultParseTemplate" inverseEntity="HNTreeNode" syncable="YES"/>
+        <relationship name="treeNodes" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="HNTreeNode" inverseName="parseTemplates" inverseEntity="HNTreeNode" syncable="YES"/>
+    </entity>
+    <entity name="HNTreeNode" representedClassName="HNTreeNode" syncable="YES">
+        <attribute name="canCollapse" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="canExpand" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="collectionType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" defaultDateTimeInterval="0" syncable="YES"/>
+        <attribute name="dateLastModified" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="displayName" attributeType="String" defaultValueString="No Name" syncable="YES"/>
+        <attribute name="isExpanded" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isLeaf" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isSelectable" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="isSpecialGroup" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sortIndex" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="children" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="HNTreeNode" inverseName="parent" inverseEntity="HNTreeNode" syncable="YES"/>
+        <relationship name="dataItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HNDataItem" inverseName="treeNode" inverseEntity="HNDataItem" syncable="YES"/>
+        <relationship name="defaultGraphTemplate" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="HNGraphTemplate" inverseName="defaultGraphForCollections" inverseEntity="HNGraphTemplate" syncable="YES"/>
+        <relationship name="defaultParseTemplate" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="HNParseTemplate" inverseName="defaultParseTemplateForCollections" inverseEntity="HNParseTemplate" syncable="YES"/>
+        <relationship name="graphTemplates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HNGraphTemplate" inverseName="treeNodes" inverseEntity="HNGraphTemplate" syncable="YES"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HNTreeNode" inverseName="children" inverseEntity="HNTreeNode" syncable="YES"/>
+        <relationship name="parseTemplates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HNParseTemplate" inverseName="treeNodes" inverseEntity="HNParseTemplate" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="HNDataItem" positionX="207" positionY="279" width="128" height="225"/>
+        <element name="HNGraphTemplate" positionX="-333" positionY="90" width="128" height="135"/>
+        <element name="HNParseTemplate" positionX="504" positionY="-18" width="128" height="315"/>
+        <element name="HNTreeNode" positionX="205" positionY="-63" width="128" height="315"/>
+    </elements>
+</model>

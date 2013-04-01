@@ -1,0 +1,16 @@
+// Names of Fields in paletteView_parseDetails
+
+yesNo_hasExpDet<HNParseTemplate<paletteView_parseDetails
+lineStart_expDet<HNParseTemplate<paletteView_parseDetails
+lineEnd_expDet<HNParseTemplate<paletteView_parseDetails
+
+
+yesNo_hasHeader<HNParseTemplate<paletteView_parseDetails
+lineStart_header<HNParseTemplate<paletteView_parseDetails
+lineEnd_header<HNParseTemplate<paletteView_parseDetails
+separator_headerFields<HNParseTemplate<paletteView_parseDetails
+
+
+yesNo_hasData<HNParseTemplate<paletteView_parseDetails
+lineStart_data<HNParseTemplate<paletteView_parseDetails
+separator_dataFields<HNParseTemplate<paletteView_parseDetails

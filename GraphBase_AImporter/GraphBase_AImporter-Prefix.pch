@@ -1,0 +1,6 @@
+//
+// Prefix header for all source files of the 'GraphBase_AImporter' target in the 'GraphBase_AImporter' project
+//
+
+#ifdef __OBJC__
+#endif

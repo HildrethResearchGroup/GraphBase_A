@@ -1,0 +1,140 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green116\blue0;\red92\green38\blue153;\red46\green13\blue110;
+\red170\green13\blue145;\red38\green71\blue75;\red100\green56\blue32;\red196\green26\blue22;\red63\green110\blue116;
+\red28\green0\blue207;}
+\margl1440\margr1440\vieww12600\viewh7800\viewkind0
+\deftab529
+\pard\tx529\pardeftab529\pardirnatural
+
+\f0\fs22 \cf0 \CocoaLigature0 	\cf2 // New Data has been selected.  Determine how to graph new data.\cf0 \
+		\cf2 // 1) Data has NEVER been graphed, parsed, and saved as: applicationSupportLocalData\cf0 \
+				\cf2 // Parse -> graph -> save applicationSupportLocalData\cf0 \
+	\
+		\cf2 // 2) Data has been saved before BUT Parse Template has CHANGED and Graph Template HAS changed since last applicationSupportLocalData save\cf0 \
+				\cf2 // Parse -> graph -> save applicationSupportLocalData\cf0 \
+	\
+		\cf2 // 3) Data has been saved BUT Parse Template has changed and Graph Template has NOT changed since last applicationSupportLocalData sa \cf0 \
+	\
+		\cf2 // 3) Data has been saved before with CURRENT Parse Template but  Graph Template has changed since last applicationSupportLocalData save\cf0 \
+				\cf2 // Load old applicationSupportLocalData -> pull out data columns -> load new graph template -> overwrite data columns of new graph template  -> save applicationSupportLocalData\cf0 \
+\
+		\cf2 // 4) Data has been parsed and graphed before  WITH current  Parse Template and  Graph Template\cf0 \
+				\cf2 // Load applicationSupportLocalData into DGController\cf0 \
+	\
+	\cf2 // Variables and Objects used throughout this method\cf0 \
+	\cf3 NSFileManager\cf0  *fm = [\cf3 NSFileManager\cf0  \cf4 defaultManager\cf0 ];\
+	\cf5 BOOL\cf0  dataFileNeedsToBeParsed  = \cf5 NO\cf0 ;\
+	\cf5 BOOL\cf0  dataFileNeedsToBeGraphed = \cf5 NO\cf0 ;\
+	\
+	\
+	\cf3 NSString\cf0  *applicationSupportDataFilePath = [dataItemIn \cf6 localizedResourcePath\cf0 ];\
+	applicationSupportDataFilePath = [applicationSupportDataFilePath \cf4 stringByAppendingPathComponent\cf0 : [dataItemIn \cf6 applicationSupportLocalDataFileName\cf0 ]];\
+	\cf7 DLog\cf0 (\cf8 @"applicationSupportDataFilePath = %@"\cf0 , applicationSupportDataFilePath);\
+	\
+	\
+	\
+	\cf2 // If not dataItemIn, show empty graph\cf0 \
+	\cf5 if\cf0  (!dataItemIn) \{\
+		[\cf5 self\cf0  \cf6 displayEmptyGraph\cf0 ];\
+		\cf5 return\cf0 ;\
+	\}\
+	\
+	\
+	\cf2 // Check to see if dataItemIn has a graph template and parse template\cf0 \
+		\cf2 // If no parseTemplate or graphTemplate, show empty graph\cf0 \
+	\cf9 HNParseTemplate\cf0  *localParseTemplate = dataItemIn.\cf9 parseTemplate\cf0 ;\
+	\cf9 HNGraphTemplate\cf0  *localGraphTemplate = dataItemIn.\cf9 graphTemplate\cf0 ;\
+	\cf5 if\cf0  (!localGraphTemplate || !localParseTemplate) \{\
+		[\cf5 self\cf0  \cf6 displayEmptyGraph\cf0 ];\
+		\cf5 return\cf0 ;\
+	\}\
+	\
+	\cf2 // Check to see if original data file still exists\cf0 \
+		\cf2 // If no, show empty graph\cf0 \
+	\cf5 BOOL\cf0  dataFileExists = [\cf5 self\cf0  \cf6 dataFileExists\cf0 : dataItemIn];\
+	\cf5 if\cf0  (!dataFileExists) \{\
+        \cf7 DLog\cf0 (\cf8 @"dataFile does not exist"\cf0 );\
+		[\cf5 self\cf0  \cf6 displayEmptyGraph\cf0 ];\
+		\cf5 return\cf0 ;\
+	\}\
+\
+	\
+	\
+	\cf2 // START - CASE 1 - Data not parsed nor graphed\cf0 \
+	\cf2 // Check to see if data has never been parsed	\cf0 \
+	\cf5 if\cf0  (! [fm \cf4 fileExistsAtPath\cf0 : applicationSupportDataFilePath] ) \{\
+		\cf7 DLog\cf0 (\cf8 @"No applicationSupportDataFilePath"\cf0 );\
+		\cf2 // applicationSupportLocalDataFileName does not exist yet.  Data has never been parsed and graph saved\cf0 \
+		dataFileNeedsToBeParsed = \cf5 YES\cf0 ;\
+		dataFileNeedsToBeGraphed = \cf5 YES\cf0 ;\
+		\
+		\cf9 ParsedDataCollector\cf0  *parsedData = [[\cf9 ParsedDataCollector\cf0  \cf4 alloc\cf0 ] \cf6 initWithDataObject\cf0 : dataItemIn];\
+		\
+		\
+		\cf3 NSString\cf0  *dataFilePath = dataItemIn.\cf9 filePath\cf0 ;\
+		\cf2 // CHANGED\cf0 \
+		\
+		\
+		\cf5 if\cf0  ([fm \cf4 fileExistsAtPath\cf0 : dataFilePath]) \{\
+			\cf5 BOOL\cf0  successfulParse = [parsedData \cf6 parseEntireFile\cf0 ];\
+			\
+			\cf5 if\cf0  (successfulParse) \{\
+				dataFileNeedsToBeParsed = \cf5 NO\cf0 ;\
+				\cf2 // TODO: Save applicationSupportLocalData\cf0 \
+				[\cf5 self\cf0  \cf6 updateGraphWithParsedDataCollector\cf0 : parsedData];\
+				[dataItemIn \cf6 setDateFileLastParsed\cf0 : [\cf3 NSDate\cf0  \cf4 date\cf0 ]];\
+				\cf5 return\cf0 ;\
+			\}\
+			\cf5 else\cf0  \{\
+				\cf7 DLog\cf0 (\cf8 @"ERROR: Unsuccessfull parse"\cf0 );\
+				[\cf5 self\cf0  \cf6 displayEmptyGraph\cf0 ];\
+			\}\
+		\}\
+		\
+	\}\
+	\cf2 // END - CASE 1 - Data not parsed nor graphed\cf0 \
+	\
+	\
+	\cf2 // START - CASE 2 - Data has been saved before BUT parse template has changed\cf0 \
+		\cf2 // Check data last parsed with last modified date of applicationSupportLocalDataFileName\cf0 \
+	\cf3 NSDate\cf0  *dateParseTemplateLastModified = [dataItemIn.\cf9 parseTemplate\cf0  \cf6 dateLastModified\cf0 ];\
+	NSDate *dateLocalDataFileLastModified;\
+	NSError *error;\
+	\cf3 NSDictionary\cf0  *fileAttributes = [fm \cf4 attributesOfItemAtPath\cf0 : applicationSupportDataFilePath\
+														\cf4 error\cf0 : &error];\
+	\
+	\cf5 if\cf0  (!error) \{\
+		dateLocalDataFileLastModified = [fileAttributes \cf4 objectForKey\cf0 : \cf3 NSFileModificationDate\cf0 ];\
+	\}\
+	\cf5 else\cf0  \{\
+		\cf7 DLog\cf0 (\cf8 @"ERROR checking dateLocalDataFileLasteModified: %@"\cf0 , error);\
+	\}\
+	\cf3 NSTimeInterval\cf0  timeInterval = [dateParseTemplateLastModified \cf4 timeIntervalSinceDate\cf0 : dateLocalDataFileLastModified];\
+	\cf5 if\cf0  (timeInterval < \cf10 0\cf0 ) \{			\cf2 // parseTemplate was modified BEFORE last time data was parsed, graphed, and saved\cf0 \
+		dataFileNeedsToBeParsed = \cf5 NO\cf0 ;\
+	\}\
+	\cf5 else\cf0  \{\
+		dataFileNeedsToBeParsed = \cf5 YES\cf0 ;\
+		\
+	\}\
+	\
+	\
+	\
+	\cf2 // CHANGED\cf0 \
+	\
+	\cf9 ParsedDataCollector\cf0  *parsedData = [[\cf9 ParsedDataCollector\cf0  \cf4 alloc\cf0 ] \cf6 initWithDataObject\cf0 : dataItemIn];\
+    \
+    \cf3 NSString\cf0  *dataFilePath = dataItemIn.\cf9 filePath\cf0 ;\
+	\cf2 // CHANGED\cf0 \
+	\
+    \
+    \cf5 if\cf0  ([fm \cf4 fileExistsAtPath\cf0 : dataFilePath]) \{\
+        \cf5 BOOL\cf0  successfulParse = [parsedData \cf6 parseEntireFile\cf0 ];\
+		\
+		\cf5 if\cf0  (successfulParse) \{\
+			[\cf5 self\cf0  \cf6 updateGraphWithParsedDataCollector\cf0 : parsedData];\
+		\}\
+    \}\
+    \
+	}

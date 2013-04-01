@@ -1,0 +1,35 @@
+[Point Spectroscopy Data]
+Approach Rate=0.1988 µm/sec
+Retreat Rate=0.1988 µm/sec
+Z Start=-3.2297 µm
+Z End=0.9459 µm
+Cycle Hold Time=0.000 sec
+Ω Cycle Hold Time=0.000 sec
+Z Piezo Linerizer On=yes
+Trigger on:Deflection Signal   >==2.000000 V
+
+[Series layout]
+Points Number=856
+Series Number=1
+Trace Z Position, µm	Deflection Signal, V	Retrace Z Position, µm	Deflection Signal, V
+
+[Data]
+ -1.072600	 -0.457796	  0.233303	  2.018670
+ -1.071072	 -0.456275	  0.231774	  2.020495
+ -1.069544	 -0.458100	  0.230247	  2.018670
+ -1.068017	 -0.456579	  0.228720	  2.020495
+ -1.066490	 -0.457492	  0.227192	  2.010152
+ -1.064962	 -0.456884	  0.225665	  1.990380
+ -1.063435	 -0.458405	  0.224138	  2.000418
+ -1.061907	 -0.457492	  0.222610	  1.982166
+ 
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

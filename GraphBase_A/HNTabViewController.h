@@ -14,6 +14,7 @@
 @class DGController;
 @class HNDataTableView;
 @class NoodleLineNumberView;
+@class HNTextFieldLabel;
 
 @interface HNTabViewController : NSObject <NSTableViewDataSource> {
 
@@ -47,8 +48,9 @@
 	IBOutlet	NSView		*paletteView_dataDetails;
 	IBOutlet	NSView		*paletteView_dataExperimentalDetails;
 	IBOutlet	NSView		*palleteView_dataExperimentalDetailsFromDataFile;
-	
-	    
+
+    
+    
 	// Palettes of inspectorCollectionView
 	DMPaletteContainer			*containerCollectionView;
 	IBOutlet	NSView			*paletteView_collectionDetails;
@@ -66,7 +68,6 @@
 	
 	
 	
-    
     // Palettes of inspectorParserView
     DMPaletteContainer			*containerParserView;
     IBOutlet    NSView			*paletteView_availableParsers;
@@ -103,7 +104,8 @@
 @property (retain) NSArrayController	*parseTemplatesArrayController;
 @property (retain) NSArrayController	*graphTemplatesArrayController;
 
-@property (retain) NSTextField			*textField_dataItemDisplayName;
+@property (nonatomic, weak) IBOutlet NSTextField			*textField_dataItemDisplayName;
+@property (nonatomic, weak) IBOutlet HNTextFieldLabel   *textField_dataDetails_filePath;
 @property (retain) NSTableView			*tableView_availableGraphTemplates;
 @property (retain) NSTableView			*tableView_availableParsers;
 
@@ -113,7 +115,8 @@
 @property (retain) NSTextView			*dataTextView;
 @property (retain) NSScrollView         *scrollView_dataText;
 
--(IBAction)openGraphInDataGraph:(id)sender;
 
+
+-(IBAction)openGraphInDataGraph:(id)sender;
 
 @end

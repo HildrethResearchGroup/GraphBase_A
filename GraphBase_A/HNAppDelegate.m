@@ -84,7 +84,7 @@
     
 	
     // Default Dictionary for data file types
-    NSArray *dataFileTypeExtensions = @[@"text", @"txt", @"dat"];
+    NSArray *dataFileTypeExtensions = @[@"text", @"txt", @"dat", @"spectrum"];
     [defaultValues setObject: dataFileTypeExtensions
 					  forKey: HNExtensionsForDataFileTypesKey];
 	

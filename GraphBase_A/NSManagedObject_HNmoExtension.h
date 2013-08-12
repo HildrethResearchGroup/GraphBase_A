@@ -44,7 +44,7 @@
             #pragma clang diagnostic push
             #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
             context = [nsApplicationDelegate performSelector: contextSelector];
-             #pragma clang diagnostic pop
+            #pragma clang diagnostic pop
         }
                        
                       

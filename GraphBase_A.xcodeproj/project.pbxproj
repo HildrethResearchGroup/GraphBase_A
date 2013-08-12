@@ -13,6 +13,36 @@
 		3334FD9F166FD03700CDA6B2 /* MarkerLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3334FD9A166FD03700CDA6B2 /* MarkerLineNumberView.m */; };
 		3334FDA0166FD03700CDA6B2 /* NoodleLineNumberMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3334FD9C166FD03700CDA6B2 /* NoodleLineNumberMarker.m */; };
 		3334FDA1166FD03700CDA6B2 /* NoodleLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3334FD9E166FD03700CDA6B2 /* NoodleLineNumberView.m */; };
+		3396600A17161797004C38E9 /* HNTextFieldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3396600917161797004C38E9 /* HNTextFieldLabel.m */; };
+		33C3D24C17162754001A4B08 /* Date Column.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D24817162754001A4B08 /* Date Column.png */; };
+		33C3D24D17162754001A4B08 /* Date Column@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D24917162754001A4B08 /* Date Column@2x.png */; };
+		33C3D24E17162754001A4B08 /* Date Column.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D24A17162754001A4B08 /* Date Column.pdf */; };
+		33C3D24F17162754001A4B08 /* Column Date.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D24B17162754001A4B08 /* Column Date.pdf */; };
+		33C3D2581716276A001A4B08 /* String Column.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D2501716276A001A4B08 /* String Column.png */; };
+		33C3D2591716276A001A4B08 /* String Column@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D2511716276A001A4B08 /* String Column@2x.png */; };
+		33C3D25A1716276A001A4B08 /* String Expression Column.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D2521716276A001A4B08 /* String Expression Column.pdf */; };
+		33C3D25B1716276A001A4B08 /* String Expression Column.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D2531716276A001A4B08 /* String Expression Column.png */; };
+		33C3D25C1716276A001A4B08 /* String Expression Column@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D2541716276A001A4B08 /* String Expression Column@2x.png */; };
+		33C3D25D1716276A001A4B08 /* Parameter - String.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D2551716276A001A4B08 /* Parameter - String.png */; };
+		33C3D25E1716276A001A4B08 /* Column String.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D2561716276A001A4B08 /* Column String.pdf */; };
+		33C3D25F1716276A001A4B08 /* Column StringExpression.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D2571716276A001A4B08 /* Column StringExpression.pdf */; };
+		33C3D2641716277F001A4B08 /* Column Binary.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D2601716277F001A4B08 /* Column Binary.pdf */; };
+		33C3D2651716277F001A4B08 /* Binary Column.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D2611716277F001A4B08 /* Binary Column.pdf */; };
+		33C3D2661716277F001A4B08 /* Binary Column.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D2621716277F001A4B08 /* Binary Column.png */; };
+		33C3D2671716277F001A4B08 /* Binary Column@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D2631716277F001A4B08 /* Binary Column@2x.png */; };
+		33C3D26B17162794001A4B08 /* Expression Column.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D26817162794001A4B08 /* Expression Column.pdf */; };
+		33C3D26C17162794001A4B08 /* Expression Column.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D26917162794001A4B08 /* Expression Column.png */; };
+		33C3D26D17162794001A4B08 /* Expression Column@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D26A17162794001A4B08 /* Expression Column@2x.png */; };
+		33C3D277171627B6001A4B08 /* Collapser Command Close.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D26E171627B6001A4B08 /* Collapser Command Close.pdf */; };
+		33C3D278171627B6001A4B08 /* Collapser Command Open Big.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D26F171627B6001A4B08 /* Collapser Command Open Big.pdf */; };
+		33C3D279171627B6001A4B08 /* Collapser Command Open.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D270171627B6001A4B08 /* Collapser Command Open.pdf */; };
+		33C3D27A171627B6001A4B08 /* Collapser Command Open Big16.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D271171627B6001A4B08 /* Collapser Command Open Big16.png */; };
+		33C3D27B171627B6001A4B08 /* Collapser Command Open Big24.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D272171627B6001A4B08 /* Collapser Command Open Big24.png */; };
+		33C3D27C171627B6001A4B08 /* Collapser Command Open Big32.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D273171627B6001A4B08 /* Collapser Command Open Big32.png */; };
+		33C3D27D171627B6001A4B08 /* FieldCommand16.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D274171627B6001A4B08 /* FieldCommand16.png */; };
+		33C3D27E171627B6001A4B08 /* FieldCommand24.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D275171627B6001A4B08 /* FieldCommand24.png */; };
+		33C3D27F171627B6001A4B08 /* FieldCommand32.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D276171627B6001A4B08 /* FieldCommand32.png */; };
+		33EDBC22178780D8007926EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EDBC20178780D8007926EC /* MainMenu.xib */; };
 		BE058AE416002FEB009FFB26 /* HNNSNotificationStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = BE058AE316002FEB009FFB26 /* HNNSNotificationStrings.m */; };
 		BE058AE516002FEB009FFB26 /* HNNSNotificationStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = BE058AE316002FEB009FFB26 /* HNNSNotificationStrings.m */; };
 		BE058AE616002FEB009FFB26 /* HNNSNotificationStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = BE058AE316002FEB009FFB26 /* HNNSNotificationStrings.m */; };
@@ -47,7 +77,6 @@
 		BE29C8A915C6C53000407DD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C8A815C6C53000407DD2 /* main.m */; };
 		BE29C8AD15C6C53000407DD2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BE29C8AB15C6C53000407DD2 /* Credits.rtf */; };
 		BE29C8B015C6C53000407DD2 /* HNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C8AF15C6C53000407DD2 /* HNAppDelegate.m */; };
-		BE29C8B315C6C53000407DD2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE29C8B115C6C53000407DD2 /* MainMenu.xib */; };
 		BE29C8BE15C6C53000407DD2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE29C8BD15C6C53000407DD2 /* SenTestingKit.framework */; };
 		BE29C8BF15C6C53000407DD2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE29C89C15C6C53000407DD2 /* Cocoa.framework */; };
 		BE29C8C715C6C53000407DD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE29C8C515C6C53000407DD2 /* InfoPlist.strings */; };
@@ -151,6 +180,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		330C7F92171DE1ED00FD912C /* hnGlobalKeyEquivalents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hnGlobalKeyEquivalents.h; sourceTree = "<group>"; };
 		330EF60E166FE3C300493FBB /* AccessoryView - Open Data Panel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "AccessoryView - Open Data Panel.xib"; sourceTree = "<group>"; };
 		330EF612166FE77600493FBB /* HNAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNAccessoryView.h; sourceTree = "<group>"; };
 		330EF613166FE77600493FBB /* HNAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNAccessoryView.m; sourceTree = "<group>"; };
@@ -160,6 +190,38 @@
 		3334FD9C166FD03700CDA6B2 /* NoodleLineNumberMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoodleLineNumberMarker.m; sourceTree = "<group>"; };
 		3334FD9D166FD03700CDA6B2 /* NoodleLineNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoodleLineNumberView.h; sourceTree = "<group>"; };
 		3334FD9E166FD03700CDA6B2 /* NoodleLineNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoodleLineNumberView.m; sourceTree = "<group>"; };
+		33798076170A24B300A5F14C /* HNIconImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNIconImage.h; sourceTree = "<group>"; };
+		3396600817161797004C38E9 /* HNTextFieldLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNTextFieldLabel.h; sourceTree = "<group>"; };
+		3396600917161797004C38E9 /* HNTextFieldLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNTextFieldLabel.m; sourceTree = "<group>"; };
+		33C3D24817162754001A4B08 /* Date Column.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Date Column.png"; sourceTree = "<group>"; };
+		33C3D24917162754001A4B08 /* Date Column@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Date Column@2x.png"; sourceTree = "<group>"; };
+		33C3D24A17162754001A4B08 /* Date Column.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Date Column.pdf"; sourceTree = "<group>"; };
+		33C3D24B17162754001A4B08 /* Column Date.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Column Date.pdf"; sourceTree = "<group>"; };
+		33C3D2501716276A001A4B08 /* String Column.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "String Column.png"; sourceTree = "<group>"; };
+		33C3D2511716276A001A4B08 /* String Column@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "String Column@2x.png"; sourceTree = "<group>"; };
+		33C3D2521716276A001A4B08 /* String Expression Column.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "String Expression Column.pdf"; sourceTree = "<group>"; };
+		33C3D2531716276A001A4B08 /* String Expression Column.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "String Expression Column.png"; sourceTree = "<group>"; };
+		33C3D2541716276A001A4B08 /* String Expression Column@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "String Expression Column@2x.png"; sourceTree = "<group>"; };
+		33C3D2551716276A001A4B08 /* Parameter - String.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parameter - String.png"; sourceTree = "<group>"; };
+		33C3D2561716276A001A4B08 /* Column String.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Column String.pdf"; sourceTree = "<group>"; };
+		33C3D2571716276A001A4B08 /* Column StringExpression.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Column StringExpression.pdf"; sourceTree = "<group>"; };
+		33C3D2601716277F001A4B08 /* Column Binary.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Column Binary.pdf"; sourceTree = "<group>"; };
+		33C3D2611716277F001A4B08 /* Binary Column.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Binary Column.pdf"; sourceTree = "<group>"; };
+		33C3D2621716277F001A4B08 /* Binary Column.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Binary Column.png"; sourceTree = "<group>"; };
+		33C3D2631716277F001A4B08 /* Binary Column@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Binary Column@2x.png"; sourceTree = "<group>"; };
+		33C3D26817162794001A4B08 /* Expression Column.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Expression Column.pdf"; sourceTree = "<group>"; };
+		33C3D26917162794001A4B08 /* Expression Column.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Expression Column.png"; sourceTree = "<group>"; };
+		33C3D26A17162794001A4B08 /* Expression Column@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Expression Column@2x.png"; sourceTree = "<group>"; };
+		33C3D26E171627B6001A4B08 /* Collapser Command Close.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Collapser Command Close.pdf"; sourceTree = "<group>"; };
+		33C3D26F171627B6001A4B08 /* Collapser Command Open Big.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Collapser Command Open Big.pdf"; sourceTree = "<group>"; };
+		33C3D270171627B6001A4B08 /* Collapser Command Open.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Collapser Command Open.pdf"; sourceTree = "<group>"; };
+		33C3D271171627B6001A4B08 /* Collapser Command Open Big16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Collapser Command Open Big16.png"; sourceTree = "<group>"; };
+		33C3D272171627B6001A4B08 /* Collapser Command Open Big24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Collapser Command Open Big24.png"; sourceTree = "<group>"; };
+		33C3D273171627B6001A4B08 /* Collapser Command Open Big32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Collapser Command Open Big32.png"; sourceTree = "<group>"; };
+		33C3D274171627B6001A4B08 /* FieldCommand16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldCommand16.png; sourceTree = "<group>"; };
+		33C3D275171627B6001A4B08 /* FieldCommand24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldCommand24.png; sourceTree = "<group>"; };
+		33C3D276171627B6001A4B08 /* FieldCommand32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldCommand32.png; sourceTree = "<group>"; };
+		33EDBC21178780D8007926EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BE058AE216002FEB009FFB26 /* HNNSNotificationStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNNSNotificationStrings.h; sourceTree = "<group>"; };
 		BE058AE316002FEB009FFB26 /* HNNSNotificationStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNNSNotificationStrings.m; sourceTree = "<group>"; };
 		BE07039715EEAA3B00F4CB13 /* HNTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNTabViewController.h; sourceTree = "<group>"; };
@@ -203,7 +265,6 @@
 		BE29C8AC15C6C53000407DD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		BE29C8AE15C6C53000407DD2 /* HNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNAppDelegate.h; sourceTree = "<group>"; };
 		BE29C8AF15C6C53000407DD2 /* HNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNAppDelegate.m; sourceTree = "<group>"; };
-		BE29C8B215C6C53000407DD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BE29C8BC15C6C53000407DD2 /* GraphBase_ATests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphBase_ATests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE29C8BD15C6C53000407DD2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		BE29C8C415C6C53000407DD2 /* GraphBase_ATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphBase_ATests-Info.plist"; sourceTree = "<group>"; };
@@ -268,7 +329,6 @@
 		BE9540F415FFFB7B00F34516 /* HNAddRemoveItemsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNAddRemoveItemsButton.h; sourceTree = "<group>"; };
 		BE9540F515FFFB7B00F34516 /* HNAddRemoveItemsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNAddRemoveItemsButton.m; sourceTree = "<group>"; };
 		BE98FCD915F8481E00E83637 /* NSArrayController_HNExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSArrayController_HNExtensions.h; sourceTree = "<group>"; };
-		BE991D8A1632E1DC00A1307D /* hnGlobalKeyEquivalents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hnGlobalKeyEquivalents.h; sourceTree = "<group>"; };
 		BE991D8B1632E1DC00A1307D /* hnGlobalKeyEquivalents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hnGlobalKeyEquivalents.m; sourceTree = "<group>"; };
 		BE9C3F00162613C700973FDA /* GraphBaseIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = GraphBaseIcon.icns; path = ../GraphBaseIcon.icns; sourceTree = "<group>"; };
 		BEA07F27161A8DA600FA850A /* HNUserDefaultStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNUserDefaultStrings.h; sourceTree = "<group>"; };
@@ -362,13 +422,65 @@
 			name = "Line Numbers";
 			sourceTree = "<group>";
 		};
+		338659731709F39100E8BDA4 /* UI Images and Icons */ = {
+			isa = PBXGroup;
+			children = (
+				33798076170A24B300A5F14C /* HNIconImage.h */,
+			);
+			name = "UI Images and Icons";
+			sourceTree = "<group>";
+		};
+		33C3D24717162741001A4B08 /* DataGraph Icons */ = {
+			isa = PBXGroup;
+			children = (
+				33C3D26E171627B6001A4B08 /* Collapser Command Close.pdf */,
+				33C3D26F171627B6001A4B08 /* Collapser Command Open Big.pdf */,
+				33C3D270171627B6001A4B08 /* Collapser Command Open.pdf */,
+				33C3D271171627B6001A4B08 /* Collapser Command Open Big16.png */,
+				33C3D272171627B6001A4B08 /* Collapser Command Open Big24.png */,
+				33C3D273171627B6001A4B08 /* Collapser Command Open Big32.png */,
+				33C3D274171627B6001A4B08 /* FieldCommand16.png */,
+				33C3D275171627B6001A4B08 /* FieldCommand24.png */,
+				33C3D276171627B6001A4B08 /* FieldCommand32.png */,
+				33C3D26817162794001A4B08 /* Expression Column.pdf */,
+				33C3D26917162794001A4B08 /* Expression Column.png */,
+				33C3D26A17162794001A4B08 /* Expression Column@2x.png */,
+				33C3D2601716277F001A4B08 /* Column Binary.pdf */,
+				33C3D2611716277F001A4B08 /* Binary Column.pdf */,
+				33C3D2621716277F001A4B08 /* Binary Column.png */,
+				33C3D2631716277F001A4B08 /* Binary Column@2x.png */,
+				33C3D2501716276A001A4B08 /* String Column.png */,
+				33C3D2511716276A001A4B08 /* String Column@2x.png */,
+				33C3D2521716276A001A4B08 /* String Expression Column.pdf */,
+				33C3D2531716276A001A4B08 /* String Expression Column.png */,
+				33C3D2541716276A001A4B08 /* String Expression Column@2x.png */,
+				33C3D2551716276A001A4B08 /* Parameter - String.png */,
+				33C3D2561716276A001A4B08 /* Column String.pdf */,
+				33C3D2571716276A001A4B08 /* Column StringExpression.pdf */,
+				33C3D24817162754001A4B08 /* Date Column.png */,
+				33C3D24917162754001A4B08 /* Date Column@2x.png */,
+				33C3D24A17162754001A4B08 /* Date Column.pdf */,
+				33C3D24B17162754001A4B08 /* Column Date.pdf */,
+			);
+			name = "DataGraph Icons";
+			sourceTree = "<group>";
+		};
+		33FAE6CB172880CD0027C25D /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				3396600817161797004C38E9 /* HNTextFieldLabel.h */,
+				3396600917161797004C38E9 /* HNTextFieldLabel.m */,
+			);
+			name = Label;
+			sourceTree = "<group>";
+		};
 		BE0344D715CF00F400823F47 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
 				BE883A9115DC8F33001A8EB4 /* GraphBase_A.xcdatamodeld */,
+				BE6F237615F048B40075B01A /* HNCoreDataHeaders.h */,
 				BE56530D1654106C001ECA9C /* HNCollectionType.h */,
 				BE56530E1654106C001ECA9C /* HNCollectionType.m */,
-				BE6F237615F048B40075B01A /* HNCoreDataHeaders.h */,
 				BE82B7DD15FC2FDA0002BFE7 /* HNDataItem.h */,
 				BE82B7DE15FC2FDA0002BFE7 /* HNDataItem.m */,
 				BE82B7DA15FC2FDA0002BFE7 /* HNTreeNode.h */,
@@ -449,6 +561,7 @@
 				BE9F6D5A15DD8B6A00C93247 /* Global Variables */,
 				BE554B6615D955540048CD8A /* Parsing Data */,
 				BE29C92E15C6D29900407DD2 /* UI Classes */,
+				338659731709F39100E8BDA4 /* UI Images and Icons */,
 				BE29C92D15C6D28500407DD2 /* XIB Files */,
 				BE29C8A315C6C53000407DD2 /* Supporting Files */,
 			);
@@ -527,6 +640,7 @@
 		BE29C8F615C6C57000407DD2 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				33C3D24717162741001A4B08 /* DataGraph Icons */,
 				BE59FA0B165747320017E8C2 /* DocumentIcon - ParseTemplate.png */,
 				BE181C7B1630EE3400FE2475 /* icon.iconset */,
 				BE1789AE162F458C007A1BFC /* Source-Experiment.png */,
@@ -569,7 +683,7 @@
 			isa = PBXGroup;
 			children = (
 				BE29C93215C6D5E400407DD2 /* HNPreferencePanelWindowController.xib */,
-				BE29C8B115C6C53000407DD2 /* MainMenu.xib */,
+				33EDBC20178780D8007926EC /* MainMenu.xib */,
 				330EF60E166FE3C300493FBB /* AccessoryView - Open Data Panel.xib */,
 			);
 			name = "XIB Files";
@@ -578,17 +692,18 @@
 		BE29C92E15C6D29900407DD2 /* UI Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BEB4FB891691166700ABFD55 /* BWToolKit */,
-				BEE6051B168F8AA100CF1215 /* SplitView */,
+				33FAE6CB172880CD0027C25D /* Label */,
 				330EF611166FE74D00493FBB /* Accessory Views */,
+				BEEF083315FECC9500CABADC /* Buttons */,
+				BEB4FB891691166700ABFD55 /* BWToolKit */,
 				3334FD97166FD02600CDA6B2 /* Line Numbers */,
 				BEC9273D160BED300080367E /* Menu Bar */,
-				BECE35BA160B973000B8F701 /* Table View */,
-				BEEF083315FECC9500CABADC /* Buttons */,
 				BE674AD215EBFA7700A5C21C /* Inspector Palette */,
 				BE0344E915CF1D7A00823F47 /* Outline View */,
 				BE29C92F15C6D43500407DD2 /* Preferences */,
+				BEE6051B168F8AA100CF1215 /* SplitView */,
 				BE29C92C15C6C65E00407DD2 /* Tab Bar */,
+				BECE35BA160B973000B8F701 /* Table View */,
 			);
 			name = "UI Classes";
 			sourceTree = "<group>";
@@ -609,7 +724,7 @@
 				BE29C8AF15C6C53000407DD2 /* HNAppDelegate.m */,
 				BED16538163205B70042A0BE /* HNAppDelegate+HNCoreDataManagement.h */,
 				BED16539163205B70042A0BE /* HNAppDelegate+HNCoreDataManagement.m */,
-				BE730DAC15EFEF52001D324E /* Controllers */,
+				BE730DAC15EFEF52001D324E /* View Controllers */,
 				BEF3FE7015EEAE60004C6D72 /* Controller Protocols */,
 			);
 			name = "App Delegates";
@@ -659,7 +774,7 @@
 			name = "Inspector Palette";
 			sourceTree = "<group>";
 		};
-		BE730DAC15EFEF52001D324E /* Controllers */ = {
+		BE730DAC15EFEF52001D324E /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				BEFE6B9F15EEA6D100D1C979 /* HNDataViewController.h */,
@@ -671,7 +786,7 @@
 				BE07039715EEAA3B00F4CB13 /* HNTabViewController.h */,
 				BE07039815EEAA3B00F4CB13 /* HNTabViewController.m */,
 			);
-			name = Controllers;
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 		BE9F6D5A15DD8B6A00C93247 /* Global Variables */ = {
@@ -684,7 +799,7 @@
 				BE219FDB15DD648800BCBEC2 /* HNPasteBoardTypes.m */,
 				BEA07F27161A8DA600FA850A /* HNUserDefaultStrings.h */,
 				BEA07F28161A8DA600FA850A /* HNUserDefaultStrings.m */,
-				BE991D8A1632E1DC00A1307D /* hnGlobalKeyEquivalents.h */,
+				330C7F92171DE1ED00FD912C /* hnGlobalKeyEquivalents.h */,
 				BE991D8B1632E1DC00A1307D /* hnGlobalKeyEquivalents.m */,
 			);
 			name = "Global Variables";
@@ -857,7 +972,6 @@
 			files = (
 				BE29C8A715C6C53000407DD2 /* InfoPlist.strings in Resources */,
 				BE29C8AD15C6C53000407DD2 /* Credits.rtf in Resources */,
-				BE29C8B315C6C53000407DD2 /* MainMenu.xib in Resources */,
 				BE29C8D215C6C53000407DD2 /* GraphBase_AImporter.mdimporter in Resources */,
 				BE29C91115C6C5E900407DD2 /* Tab-Graph.png in Resources */,
 				BE29C91215C6C5E900407DD2 /* Tab-Graph@2x.png in Resources */,
@@ -889,6 +1003,35 @@
 				BE181C7F1630EE6000FE2475 /* icon.iconset in Resources */,
 				BE59FA0C165747320017E8C2 /* DocumentIcon - ParseTemplate.png in Resources */,
 				330EF60F166FE3C300493FBB /* AccessoryView - Open Data Panel.xib in Resources */,
+				33C3D24C17162754001A4B08 /* Date Column.png in Resources */,
+				33C3D24D17162754001A4B08 /* Date Column@2x.png in Resources */,
+				33C3D24E17162754001A4B08 /* Date Column.pdf in Resources */,
+				33C3D24F17162754001A4B08 /* Column Date.pdf in Resources */,
+				33C3D2581716276A001A4B08 /* String Column.png in Resources */,
+				33C3D2591716276A001A4B08 /* String Column@2x.png in Resources */,
+				33C3D25A1716276A001A4B08 /* String Expression Column.pdf in Resources */,
+				33C3D25B1716276A001A4B08 /* String Expression Column.png in Resources */,
+				33C3D25C1716276A001A4B08 /* String Expression Column@2x.png in Resources */,
+				33C3D25D1716276A001A4B08 /* Parameter - String.png in Resources */,
+				33C3D25E1716276A001A4B08 /* Column String.pdf in Resources */,
+				33C3D25F1716276A001A4B08 /* Column StringExpression.pdf in Resources */,
+				33C3D2641716277F001A4B08 /* Column Binary.pdf in Resources */,
+				33C3D2651716277F001A4B08 /* Binary Column.pdf in Resources */,
+				33C3D2661716277F001A4B08 /* Binary Column.png in Resources */,
+				33C3D2671716277F001A4B08 /* Binary Column@2x.png in Resources */,
+				33C3D26B17162794001A4B08 /* Expression Column.pdf in Resources */,
+				33C3D26C17162794001A4B08 /* Expression Column.png in Resources */,
+				33C3D26D17162794001A4B08 /* Expression Column@2x.png in Resources */,
+				33C3D277171627B6001A4B08 /* Collapser Command Close.pdf in Resources */,
+				33C3D278171627B6001A4B08 /* Collapser Command Open Big.pdf in Resources */,
+				33C3D279171627B6001A4B08 /* Collapser Command Open.pdf in Resources */,
+				33C3D27A171627B6001A4B08 /* Collapser Command Open Big16.png in Resources */,
+				33C3D27B171627B6001A4B08 /* Collapser Command Open Big24.png in Resources */,
+				33C3D27C171627B6001A4B08 /* Collapser Command Open Big32.png in Resources */,
+				33C3D27D171627B6001A4B08 /* FieldCommand16.png in Resources */,
+				33C3D27E171627B6001A4B08 /* FieldCommand24.png in Resources */,
+				33C3D27F171627B6001A4B08 /* FieldCommand32.png in Resources */,
+				33EDBC22178780D8007926EC /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -974,6 +1117,7 @@
 				3334FDA1166FD03700CDA6B2 /* NoodleLineNumberView.m in Sources */,
 				330EF614166FE77600493FBB /* HNAccessoryView.m in Sources */,
 				BEE60519168F8A8F00CF1215 /* HNSplitViewController.m in Sources */,
+				3396600A17161797004C38E9 /* HNTextFieldLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1029,6 +1173,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		33EDBC20178780D8007926EC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33EDBC21178780D8007926EC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		BE29C8A515C6C53000407DD2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1043,14 +1195,6 @@
 				BE29C8AC15C6C53000407DD2 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		BE29C8B115C6C53000407DD2 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE29C8B215C6C53000407DD2 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		BE29C8C515C6C53000407DD2 /* InfoPlist.strings */ = {

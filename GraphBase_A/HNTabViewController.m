@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Owen Hildreth. All rights reserved.
 //
 
-
+#import <DataGraph/DataGraph.h>
 #import "HNAppDelegateAsDataSource.h"
 #import "PreCompiledHeaders.h"
 
@@ -17,6 +17,7 @@
 #import "DMPaletteContainer.h"
 #import "DMPaletteSectionView.h"
 #import "HNNSNotificationStrings.h"
+#import "HNTextFieldLabel.h"
 
 // Line Numbers
 #import "NoodleLineNumberView.h"
@@ -45,6 +46,8 @@
 @synthesize datasource  = _datasource;
 
 @synthesize textField_dataItemDisplayName		= _textField_dataItemDisplayName;
+@synthesize textField_dataDetails_filePath      = _textField_dataItem_filePath;
+
 @synthesize tableView_availableGraphTemplates	= _tableView_availableGraphTemplates;
 @synthesize tableView_availableParsers			= _tableView_availableParsers;
 
@@ -105,6 +108,7 @@
 	// Set up graphTemplateDrawingView
 	self.dataGraphTemplateController = [DGController controllerWithFileInBundle:@"InitialGraph"];
 	[self.dataGraphTemplateController setDrawingView: self.graphTemplateDrawingView];
+    [self.dataGraphTemplateController setDataTable: self.dataTableView];
 	[self.dataGraphTemplateController setDelegate: self];
 	
 	
@@ -125,8 +129,13 @@
     [self.scrollView_dataText setRulersVisible:YES];
 	
     [self.dataTextView setFont:[NSFont userFixedPitchFontOfSize:[NSFont smallSystemFontSize]]];
+
+    
+
     
 }
+
+
 
 
 
@@ -225,6 +234,18 @@
 	// Add Palette Section view to container data View in the order that they need to appear
 	containerDataview.sectionViews = @[ paletteSection_dataDetails, paletteSection_dataExperimentalDetails, palleteSection_dataExperimentalDetailsFromDataFile ];
     
+    // Add Notifications
+    NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
+
+    [nc addObserver: self
+           selector: @selector(setLabelsSize:)
+               name: NSViewFrameDidChangeNotification
+             object: self.textField_dataDetails_filePath];
+    
+    [nc addObserver: self
+           selector: @selector(setLabelsSize:)
+               name: NSViewFrameDidChangeNotification
+             object: self.textField_dataItemDisplayName];
     
     
     [containerDataview setAutoresizesSubviews: YES];
@@ -233,7 +254,12 @@
 }
 //END: Data Inspection Palette
 
+-(void) setLabelsSize: (NSNotification *) notification {
+    if ([notification.object isKindOfClass: [NSView class]]) {
+        [notification.object invalidateIntrinsicContentSize];
+    }
 
+}
 
 -(void) loadInspectorGraphView {
 	//DLog(@"CALLED - loadInspectorGraphView");
@@ -295,6 +321,11 @@
     containerCollectionView.sectionViews = @[ paletteSection_collectinDetails ];
 	
 	//DLog(@"FINISHED - loadInspectorCollectionView");
+}
+
+-(void) loadDataTableView {
+    NSRect bound = NSMakeRect(0, 0, NSWidth(inspectorDGDataTable.frame), NSHeight(inspectorDGDataTable.frame));
+    
 }
 
 
@@ -603,6 +634,16 @@ objectValueForTableColumn:(NSTableColumn *)tableColumn
 	if ([aNotification object] == [self tableView_availableParsers]) {
 		
 	}
+}
+
+- (BOOL)tableView:(NSTableView *)aTableView shouldEditTableColumn:(NSTableColumn *)aTableColumn row:(int)rowIndex {
+    
+    if ([aTableView isEqualTo: self.dataTableView]) {
+        return NO;
+    }
+
+    
+    return YES;
 }
 
 @end

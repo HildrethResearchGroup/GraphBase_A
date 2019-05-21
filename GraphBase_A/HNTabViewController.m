@@ -324,7 +324,7 @@
 }
 
 -(void) loadDataTableView {
-    NSRect bound = NSMakeRect(0, 0, NSWidth(inspectorDGDataTable.frame), NSHeight(inspectorDGDataTable.frame));
+    //NSRect bound = NSMakeRect(0, 0, NSWidth(inspectorDGDataTable.frame), NSHeight(inspectorDGDataTable.frame));
     
 }
 

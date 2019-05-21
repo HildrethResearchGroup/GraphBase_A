@@ -190,7 +190,7 @@
 	
 	
 	
-	if ([[self.treeController arrangedObjects] count] == 0) {
+	if ([[self.treeController arrangedObjects] count] == nil) {
 		NSIndexPath *insertionPath = [self.treeController indexPathForInsertion];
 		[self addNewCollectionOfType: HNProjectCollectionType withInsertionPath: insertionPath];
 	}
@@ -1401,18 +1401,24 @@
 -(NSArray *) filesInArray: (NSArray *) arrayOfFiles
 		   withExtensions: (NSArray *) fileExtensions {
 	DLog(@"CALLED - HNAppDelegate:  filesInArray: withExtensions");
+    DLog(@"arrayOfFiles = %@", arrayOfFiles);
 	
 	NSMutableArray *matchingFiles = [NSMutableArray array];
+    NSMutableSet *matchingFilesSet = [NSMutableSet set]; // NEW
 	
 	for (NSString *nextExtension in fileExtensions) {
 		NSString *predicateString = [NSString stringWithFormat: @"self ENDSWITH '.%@'", nextExtension];
 		NSPredicate *filterPredicate = [NSPredicate predicateWithFormat: predicateString];
 		NSArray *filesWithCorrectExtension = [arrayOfFiles filteredArrayUsingPredicate:filterPredicate];
+        
 		[matchingFiles addObjectsFromArray: filesWithCorrectExtension];
+        // NEW
+        [matchingFilesSet addObjectsFromArray: filesWithCorrectExtension];
 	}
 	
 	
-	return [NSArray arrayWithArray: matchingFiles];
+	//return [NSArray arrayWithArray: matchingFiles];
+    return [matchingFilesSet allObjects];
 }
 
 

@@ -1116,9 +1116,12 @@
 
 - (BOOL)outlineView:(NSOutlineView *)outlineView shouldCollapseItem:(id)item {
     //DLog(@"Called - HNAppDelegate: shouldCollapseItem");
-	if ([[(HNTreeNode *)[item representedObject] isLeaf] boolValue] || [(NSTreeNode *)item isLeaf])
-		return NO;
-	return [[[item representedObject] canCollapse] boolValue];
+    if ([[(HNTreeNode *)[item representedObject] isLeaf] boolValue] || [(NSTreeNode *)item isLeaf]) {
+        return NO;}
+    
+    // TODO: FIX canCollapse
+	//return [[[item representedObject] canCollapse] boolValue];
+    return YES;
 }
 
 

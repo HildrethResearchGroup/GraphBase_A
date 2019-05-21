@@ -79,6 +79,8 @@
 	if (!parseTemplate) {
 		return NO;
 	}
+    
+
 	
 	// Set values from
     hasExperimentalDetails	= [parseTemplate.yesNo_hasExpDet boolValue];

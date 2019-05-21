@@ -49,8 +49,8 @@
 	self = [super init];
 	if (self)
 	{
-		csvString = [aCSVString retain];
-		separator = [aSeparatorString retain];
+		csvString = aCSVString;
+		separator = aSeparatorString ;
 		
 		NSAssert([separator length] > 0 &&
 			[separator rangeOfString:@"\""].location == NSNotFound &&
@@ -86,14 +86,7 @@
 //
 // Releases instance memory.
 //
-- (void)dealloc
-{
-	[csvString release];
-	[separator release];
-	[fieldNames release];
-	[endTextCharacterSet release];
-	[super dealloc];
-}
+
 
 
 //

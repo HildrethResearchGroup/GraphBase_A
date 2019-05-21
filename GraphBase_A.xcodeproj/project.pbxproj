@@ -44,10 +44,7 @@
 		33C3D27F171627B6001A4B08 /* FieldCommand32.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C3D276171627B6001A4B08 /* FieldCommand32.png */; };
 		33EDBC22178780D8007926EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EDBC20178780D8007926EC /* MainMenu.xib */; };
 		BE058AE416002FEB009FFB26 /* HNNSNotificationStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = BE058AE316002FEB009FFB26 /* HNNSNotificationStrings.m */; };
-		BE058AE516002FEB009FFB26 /* HNNSNotificationStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = BE058AE316002FEB009FFB26 /* HNNSNotificationStrings.m */; };
-		BE058AE616002FEB009FFB26 /* HNNSNotificationStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = BE058AE316002FEB009FFB26 /* HNNSNotificationStrings.m */; };
 		BE07039915EEAA3B00F4CB13 /* HNTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE07039815EEAA3B00F4CB13 /* HNTabViewController.m */; };
-		BE07039A15EEAA3B00F4CB13 /* HNTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE07039815EEAA3B00F4CB13 /* HNTabViewController.m */; };
 		BE1789AB162F4535007A1BFC /* Source-Folders.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1789A9162F4535007A1BFC /* Source-Folders.png */; };
 		BE1789AC162F4535007A1BFC /* Source-Folders@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1789AA162F4535007A1BFC /* Source-Folders@2x.png */; };
 		BE1789B0162F458C007A1BFC /* Source-Experiment.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1789AE162F458C007A1BFC /* Source-Experiment.png */; };
@@ -55,18 +52,11 @@
 		BE181C7C1630EE3400FE2475 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = BE181C7B1630EE3400FE2475 /* icon.iconset */; };
 		BE181C7F1630EE6000FE2475 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = BE181C7E1630EE6000FE2475 /* icon.iconset */; };
 		BE1B003B160609BD00095785 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B003A160609BD00095785 /* ImageAndTextCell.m */; };
-		BE1B003C160609BD00095785 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B003A160609BD00095785 /* ImageAndTextCell.m */; };
 		BE1B0049160615C200095785 /* Source-Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1B0043160615C200095785 /* Source-Folder.png */; };
 		BE1B004A160615C200095785 /* Source-Folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1B0044160615C200095785 /* Source-Folder@2x.png */; };
 		BE1B004B160615C200095785 /* Source-Project.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1B0045160615C200095785 /* Source-Project.png */; };
 		BE1B004C160615C200095785 /* Source-Project@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1B0046160615C200095785 /* Source-Project@2x.png */; };
-		BE1B521615CF5C2F00B3E9F0 /* HNOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B521315CF5C2F00B3E9F0 /* HNOutlineView.m */; };
-		BE1B521715CF5C2F00B3E9F0 /* HNTreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B521515CF5C2F00B3E9F0 /* HNTreeController.m */; };
 		BE219FDC15DD648800BCBEC2 /* HNPasteBoardTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = BE219FDB15DD648800BCBEC2 /* HNPasteBoardTypes.m */; };
-		BE21F53A15D1DCC000C968EA /* NSArray_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE21F53615D1DCC000C968EA /* NSArray_Extensions.m */; };
-		BE21F53B15D1DCC000C968EA /* NSTreeController_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE21F53715D1DCC000C968EA /* NSTreeController_Extensions.m */; };
-		BE21F53C15D1DCC000C968EA /* NSTreeNode_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE21F53815D1DCC000C968EA /* NSTreeNode_Extensions.m */; };
-		BE21F53D15D1DCC000C968EA /* NSIndexPath_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE21F53915D1DCC000C968EA /* NSIndexPath_Extensions.m */; };
 		BE21F54215D1E94100C968EA /* NSArray_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE21F53615D1DCC000C968EA /* NSArray_Extensions.m */; };
 		BE21F54315D1E94100C968EA /* NSIndexPath_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE21F53915D1DCC000C968EA /* NSIndexPath_Extensions.m */; };
 		BE21F54415D1E94100C968EA /* NSTreeNode_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE21F53815D1DCC000C968EA /* NSTreeNode_Extensions.m */; };
@@ -77,19 +67,6 @@
 		BE29C8A915C6C53000407DD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C8A815C6C53000407DD2 /* main.m */; };
 		BE29C8AD15C6C53000407DD2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BE29C8AB15C6C53000407DD2 /* Credits.rtf */; };
 		BE29C8B015C6C53000407DD2 /* HNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C8AF15C6C53000407DD2 /* HNAppDelegate.m */; };
-		BE29C8BE15C6C53000407DD2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE29C8BD15C6C53000407DD2 /* SenTestingKit.framework */; };
-		BE29C8BF15C6C53000407DD2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE29C89C15C6C53000407DD2 /* Cocoa.framework */; };
-		BE29C8C715C6C53000407DD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE29C8C515C6C53000407DD2 /* InfoPlist.strings */; };
-		BE29C8CA15C6C53000407DD2 /* GraphBase_ATests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C8C915C6C53000407DD2 /* GraphBase_ATests.m */; };
-		BE29C8D215C6C53000407DD2 /* GraphBase_AImporter.mdimporter in Resources */ = {isa = PBXBuildFile; fileRef = BE29C8CF15C6C53000407DD2 /* GraphBase_AImporter.mdimporter */; };
-		BE29C8D415C6C53000407DD2 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE29C8D315C6C53000407DD2 /* CoreServices.framework */; };
-		BE29C8D615C6C53000407DD2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE29C8D515C6C53000407DD2 /* CoreFoundation.framework */; };
-		BE29C8D815C6C53000407DD2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE29C8D715C6C53000407DD2 /* CoreData.framework */; };
-		BE29C8DA15C6C53000407DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE29C8D915C6C53000407DD2 /* Foundation.framework */; };
-		BE29C8E015C6C53000407DD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE29C8DE15C6C53000407DD2 /* InfoPlist.strings */; };
-		BE29C8E215C6C53000407DD2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BE29C8E115C6C53000407DD2 /* main.c */; };
-		BE29C8E415C6C53000407DD2 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C8E315C6C53000407DD2 /* GetMetadataForFile.m */; };
-		BE29C8E715C6C53000407DD2 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C8E615C6C53000407DD2 /* MySpotlightImporter.m */; };
 		BE29C91115C6C5E900407DD2 /* Tab-Graph.png in Resources */ = {isa = PBXBuildFile; fileRef = BE29C8FB15C6C5E900407DD2 /* Tab-Graph.png */; };
 		BE29C91215C6C5E900407DD2 /* Tab-Graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE29C8FC15C6C5E900407DD2 /* Tab-Graph@2x.png */; };
 		BE29C91515C6C5E900407DD2 /* Tab-Info.png in Resources */ = {isa = PBXBuildFile; fileRef = BE29C90115C6C5E900407DD2 /* Tab-Info.png */; };
@@ -99,13 +76,9 @@
 		BE29C91D15C6C5E900407DD2 /* Tab-Text.png in Resources */ = {isa = PBXBuildFile; fileRef = BE29C90D15C6C5E900407DD2 /* Tab-Text.png */; };
 		BE29C91E15C6C5E900407DD2 /* Tab-Text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE29C90E15C6C5E900407DD2 /* Tab-Text@2x.png */; };
 		BE29C92815C6C65100407DD2 /* DMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C92515C6C65100407DD2 /* DMTabBar.m */; };
-		BE29C92915C6C65100407DD2 /* DMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C92515C6C65100407DD2 /* DMTabBar.m */; };
 		BE29C92A15C6C65100407DD2 /* DMTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C92715C6C65100407DD2 /* DMTabBarItem.m */; };
-		BE29C92B15C6C65100407DD2 /* DMTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C92715C6C65100407DD2 /* DMTabBarItem.m */; };
 		BE29C93315C6D5E400407DD2 /* HNPreferencePanelWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C93115C6D5E400407DD2 /* HNPreferencePanelWindowController.m */; };
-		BE29C93415C6D5E400407DD2 /* HNPreferencePanelWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C93115C6D5E400407DD2 /* HNPreferencePanelWindowController.m */; };
 		BE29C93515C6D5E400407DD2 /* HNPreferencePanelWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE29C93215C6D5E400407DD2 /* HNPreferencePanelWindowController.xib */; };
-		BE29C93615C6D5E400407DD2 /* HNPreferencePanelWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE29C93215C6D5E400407DD2 /* HNPreferencePanelWindowController.xib */; };
 		BE33BEA815E82D1A00160888 /* ParsedDataCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = BE33BEA715E82D1A00160888 /* ParsedDataCollector.m */; };
 		BE554B6A15D955740048CD8A /* HNDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE554B6915D955740048CD8A /* HNDataParser.m */; };
 		BE56530F1654106C001ECA9C /* HNCollectionType.m in Sources */ = {isa = PBXBuildFile; fileRef = BE56530E1654106C001ECA9C /* HNCollectionType.m */; };
@@ -128,11 +101,7 @@
 		BEA07F29161A8DA600FA850A /* HNUserDefaultStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA07F28161A8DA600FA850A /* HNUserDefaultStrings.m */; };
 		BEA7394815DC806300087113 /* HNAddCollectionsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA7394715DC806300087113 /* HNAddCollectionsButton.m */; };
 		BEB06CC515DB1C8C00C295A6 /* TestData.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEB06CC415DB1C8C00C295A6 /* TestData.txt */; };
-		BEB2E10315D48A0E003AB11C /* DataGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB2E10215D48A0E003AB11C /* DataGraph.framework */; };
-		BEB2E10615D48C94003AB11C /* DataGraph.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEB2E10215D48A0E003AB11C /* DataGraph.framework */; };
-		BEB8F90915E80D04002D48AD /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB8F90815E80D04002D48AD /* CSVParser.m */; };
 		BEBA912A160353B1007A88D7 /* HNMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBA9129160353B1007A88D7 /* HNMenuItem.m */; };
-		BEBA912B160353B1007A88D7 /* HNMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBA9129160353B1007A88D7 /* HNMenuItem.m */; };
 		BEC92741160BED4B0080367E /* HNMenuBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC92740160BED4B0080367E /* HNMenuBarController.m */; };
 		BECE35BD160B974900B8F701 /* HNDataTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BECE35BC160B974900B8F701 /* HNDataTableView.m */; };
 		BED0604D161E270A00509274 /* EmptyGraph.dgraph in Resources */ = {isa = PBXBuildFile; fileRef = BED0604C161E270900509274 /* EmptyGraph.dgraph */; };
@@ -141,40 +110,23 @@
 		BED1653A163205B70042A0BE /* HNAppDelegate+HNCoreDataManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = BED16539163205B70042A0BE /* HNAppDelegate+HNCoreDataManagement.m */; };
 		BED57F7B15F7ED250011AA38 /* Identifiers - paletteView_parseDetails.txt in Resources */ = {isa = PBXBuildFile; fileRef = BED57F7A15F7ED250011AA38 /* Identifiers - paletteView_parseDetails.txt */; };
 		BEDD54BC15EE6DA500049BD0 /* DMPaletteContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD54B915EE6DA500049BD0 /* DMPaletteContainer.m */; };
-		BEDD54BD15EE6DA500049BD0 /* DMPaletteContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD54B915EE6DA500049BD0 /* DMPaletteContainer.m */; };
 		BEDD54BE15EE6DA500049BD0 /* DMPaletteSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD54BB15EE6DA500049BD0 /* DMPaletteSectionView.m */; };
-		BEDD54BF15EE6DA500049BD0 /* DMPaletteSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDD54BB15EE6DA500049BD0 /* DMPaletteSectionView.m */; };
 		BEE60519168F8A8F00CF1215 /* HNSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE60518168F8A8F00CF1215 /* HNSplitViewController.m */; };
 		BEFE6BA215EEA8BC00D1C979 /* HNSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFE6BA115EEA8BC00D1C979 /* HNSourceViewController.m */; };
-		BEFE6BA315EEA8BC00D1C979 /* HNSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFE6BA115EEA8BC00D1C979 /* HNSourceViewController.m */; };
+		C08F5FA819F4B5A9001E4760 /* DataGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08F5FA719F4B5A9001E4760 /* DataGraph.framework */; };
+		C08F5FA919F4B5B6001E4760 /* DataGraph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C08F5FA719F4B5A9001E4760 /* DataGraph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BE29C8C015C6C53000407DD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BE29C88F15C6C53000407DD2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BE29C89715C6C53000407DD2;
-			remoteInfo = GraphBase_A;
-		};
-		BE29C8D015C6C53000407DD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BE29C88F15C6C53000407DD2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BE29C8CE15C6C53000407DD2;
-			remoteInfo = GraphBase_AImporter;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		BEB2E10515D48C8E003AB11C /* CopyFiles */ = {
+		C08F5FA519F4B3AD001E4760 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BEB2E10615D48C94003AB11C /* DataGraph.framework in CopyFiles */,
+				C08F5FA919F4B5B6001E4760 /* DataGraph.framework in Embed Frameworks */,
 			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -265,13 +217,11 @@
 		BE29C8AC15C6C53000407DD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		BE29C8AE15C6C53000407DD2 /* HNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNAppDelegate.h; sourceTree = "<group>"; };
 		BE29C8AF15C6C53000407DD2 /* HNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNAppDelegate.m; sourceTree = "<group>"; };
-		BE29C8BC15C6C53000407DD2 /* GraphBase_ATests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphBase_ATests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE29C8BD15C6C53000407DD2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		BE29C8C415C6C53000407DD2 /* GraphBase_ATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphBase_ATests-Info.plist"; sourceTree = "<group>"; };
 		BE29C8C615C6C53000407DD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE29C8C815C6C53000407DD2 /* GraphBase_ATests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphBase_ATests.h; sourceTree = "<group>"; };
 		BE29C8C915C6C53000407DD2 /* GraphBase_ATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphBase_ATests.m; sourceTree = "<group>"; };
-		BE29C8CF15C6C53000407DD2 /* GraphBase_AImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphBase_AImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE29C8D315C6C53000407DD2 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		BE29C8D515C6C53000407DD2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		BE29C8D715C6C53000407DD2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -336,7 +286,6 @@
 		BEA7394615DC806300087113 /* HNAddCollectionsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNAddCollectionsButton.h; sourceTree = "<group>"; };
 		BEA7394715DC806300087113 /* HNAddCollectionsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNAddCollectionsButton.m; sourceTree = "<group>"; };
 		BEB06CC415DB1C8C00C295A6 /* TestData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestData.txt; sourceTree = "<group>"; };
-		BEB2E10215D48A0E003AB11C /* DataGraph.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DataGraph.framework; path = ../../datagraph/DataGraph.framework; sourceTree = "<group>"; };
 		BEB8F90715E80D04002D48AD /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
 		BEB8F90815E80D04002D48AD /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
 		BEBA9128160353B1007A88D7 /* HNMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNMenuItem.h; sourceTree = "<group>"; };
@@ -346,7 +295,7 @@
 		BECE35BB160B974900B8F701 /* HNDataTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNDataTableView.h; sourceTree = "<group>"; };
 		BECE35BC160B974900B8F701 /* HNDataTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNDataTableView.m; sourceTree = "<group>"; };
 		BED0604C161E270900509274 /* EmptyGraph.dgraph */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = EmptyGraph.dgraph; sourceTree = "<group>"; };
-		BED152FC15D59A6E000D2172 /* PreCompiledHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreCompiledHeaders.h; sourceTree = "<group>"; };
+		BED152FC15D59A6E000D2172 /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSVParser.m; path = /Users/ohildret/Documents/Code/GraphBase/GraphBase_A/GraphBase_A/CSVParser.m; sourceTree = "<absolute>"; };
 		BED152FD15D67BEB000D2172 /* Tab-Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tab-Table.png"; path = "Icons/Tab-Table.png"; sourceTree = "<group>"; };
 		BED152FE15D67BEB000D2172 /* Tab-Table@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tab-Table@2x.png"; path = "Icons/Tab-Table@2x.png"; sourceTree = "<group>"; };
 		BED16538163205B70042A0BE /* HNAppDelegate+HNCoreDataManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HNAppDelegate+HNCoreDataManagement.h"; sourceTree = "<group>"; };
@@ -364,6 +313,7 @@
 		BEFE6B9F15EEA6D100D1C979 /* HNDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNDataViewController.h; sourceTree = "<group>"; };
 		BEFE6BA015EEA8BC00D1C979 /* HNSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNSourceViewController.h; sourceTree = "<group>"; };
 		BEFE6BA115EEA8BC00D1C979 /* HNSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNSourceViewController.m; sourceTree = "<group>"; };
+		C08F5FA719F4B5A9001E4760 /* DataGraph.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DataGraph.framework; path = GraphBase_A/DataGraph.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,29 +321,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08F5FA819F4B5A9001E4760 /* DataGraph.framework in Frameworks */,
 				331C7FDF167A452700CB2D59 /* AppKit.framework in Frameworks */,
-				BEB2E10315D48A0E003AB11C /* DataGraph.framework in Frameworks */,
 				BE29C89D15C6C53000407DD2 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE29C8B815C6C53000407DD2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE29C8BE15C6C53000407DD2 /* SenTestingKit.framework in Frameworks */,
-				BE29C8BF15C6C53000407DD2 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE29C8CC15C6C53000407DD2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE29C8D415C6C53000407DD2 /* CoreServices.framework in Frameworks */,
-				BE29C8D615C6C53000407DD2 /* CoreFoundation.framework in Frameworks */,
-				BE29C8D815C6C53000407DD2 /* CoreData.framework in Frameworks */,
-				BE29C8DA15C6C53000407DD2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,8 +450,6 @@
 			isa = PBXGroup;
 			children = (
 				BE29C89815C6C53000407DD2 /* GraphBase_A.app */,
-				BE29C8BC15C6C53000407DD2 /* GraphBase_ATests.octest */,
-				BE29C8CF15C6C53000407DD2 /* GraphBase_AImporter.mdimporter */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -529,8 +457,8 @@
 		BE29C89B15C6C53000407DD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C08F5FA719F4B5A9001E4760 /* DataGraph.framework */,
 				BE29C89C15C6C53000407DD2 /* Cocoa.framework */,
-				BEB2E10215D48A0E003AB11C /* DataGraph.framework */,
 				BE29C8BD15C6C53000407DD2 /* SenTestingKit.framework */,
 				BE29C8D315C6C53000407DD2 /* CoreServices.framework */,
 				BE29C8D515C6C53000407DD2 /* CoreFoundation.framework */,
@@ -792,7 +720,7 @@
 		BE9F6D5A15DD8B6A00C93247 /* Global Variables */ = {
 			isa = PBXGroup;
 			children = (
-				BED152FC15D59A6E000D2172 /* PreCompiledHeaders.h */,
+				BED152FC15D59A6E000D2172 /* CSVParser.m */,
 				BE058AE216002FEB009FFB26 /* HNNSNotificationStrings.h */,
 				BE058AE316002FEB009FFB26 /* HNNSNotificationStrings.m */,
 				BE219FDA15DD648800BCBEC2 /* HNPasteBoardTypes.h */,
@@ -888,53 +816,16 @@
 				BE29C89415C6C53000407DD2 /* Sources */,
 				BE29C89515C6C53000407DD2 /* Frameworks */,
 				BE29C89615C6C53000407DD2 /* Resources */,
-				BEB2E10515D48C8E003AB11C /* CopyFiles */,
+				C08F5FA519F4B3AD001E4760 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BE29C8D115C6C53000407DD2 /* PBXTargetDependency */,
 			);
 			name = GraphBase_A;
 			productName = GraphBase_A;
 			productReference = BE29C89815C6C53000407DD2 /* GraphBase_A.app */;
 			productType = "com.apple.product-type.application";
-		};
-		BE29C8BB15C6C53000407DD2 /* GraphBase_ATests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BE29C8F215C6C53000407DD2 /* Build configuration list for PBXNativeTarget "GraphBase_ATests" */;
-			buildPhases = (
-				BE29C8B715C6C53000407DD2 /* Sources */,
-				BE29C8B815C6C53000407DD2 /* Frameworks */,
-				BE29C8B915C6C53000407DD2 /* Resources */,
-				BE29C8BA15C6C53000407DD2 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BE29C8C115C6C53000407DD2 /* PBXTargetDependency */,
-			);
-			name = GraphBase_ATests;
-			productName = GraphBase_ATests;
-			productReference = BE29C8BC15C6C53000407DD2 /* GraphBase_ATests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
-		BE29C8CE15C6C53000407DD2 /* GraphBase_AImporter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BE29C8EC15C6C53000407DD2 /* Build configuration list for PBXNativeTarget "GraphBase_AImporter" */;
-			buildPhases = (
-				BE29C8CB15C6C53000407DD2 /* Sources */,
-				BE29C8CC15C6C53000407DD2 /* Frameworks */,
-				BE29C8CD15C6C53000407DD2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GraphBase_AImporter;
-			productName = GraphBase_AImporter;
-			productReference = BE29C8CF15C6C53000407DD2 /* GraphBase_AImporter.mdimporter */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -943,7 +834,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = HN;
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0600;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Owen Hildreth";
 			};
 			buildConfigurationList = BE29C89215C6C53000407DD2 /* Build configuration list for PBXProject "GraphBase_A" */;
@@ -951,6 +843,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = BE29C88D15C6C53000407DD2;
@@ -959,8 +852,6 @@
 			projectRoot = "";
 			targets = (
 				BE29C89715C6C53000407DD2 /* GraphBase_A */,
-				BE29C8BB15C6C53000407DD2 /* GraphBase_ATests */,
-				BE29C8CE15C6C53000407DD2 /* GraphBase_AImporter */,
 			);
 		};
 /* End PBXProject section */
@@ -972,7 +863,6 @@
 			files = (
 				BE29C8A715C6C53000407DD2 /* InfoPlist.strings in Resources */,
 				BE29C8AD15C6C53000407DD2 /* Credits.rtf in Resources */,
-				BE29C8D215C6C53000407DD2 /* GraphBase_AImporter.mdimporter in Resources */,
 				BE29C91115C6C5E900407DD2 /* Tab-Graph.png in Resources */,
 				BE29C91215C6C5E900407DD2 /* Tab-Graph@2x.png in Resources */,
 				BE29C91515C6C5E900407DD2 /* Tab-Info.png in Resources */,
@@ -1035,40 +925,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE29C8B915C6C53000407DD2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE29C8C715C6C53000407DD2 /* InfoPlist.strings in Resources */,
-				BE29C93615C6D5E400407DD2 /* HNPreferencePanelWindowController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE29C8CD15C6C53000407DD2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE29C8E015C6C53000407DD2 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		BE29C8BA15C6C53000407DD2 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE29C89415C6C53000407DD2 /* Sources */ = {
@@ -1121,56 +978,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE29C8B715C6C53000407DD2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE29C8CA15C6C53000407DD2 /* GraphBase_ATests.m in Sources */,
-				BE29C92915C6C65100407DD2 /* DMTabBar.m in Sources */,
-				BE29C92B15C6C65100407DD2 /* DMTabBarItem.m in Sources */,
-				BE29C93415C6D5E400407DD2 /* HNPreferencePanelWindowController.m in Sources */,
-				BE1B521615CF5C2F00B3E9F0 /* HNOutlineView.m in Sources */,
-				BE1B521715CF5C2F00B3E9F0 /* HNTreeController.m in Sources */,
-				BE21F53A15D1DCC000C968EA /* NSArray_Extensions.m in Sources */,
-				BE21F53B15D1DCC000C968EA /* NSTreeController_Extensions.m in Sources */,
-				BE21F53C15D1DCC000C968EA /* NSTreeNode_Extensions.m in Sources */,
-				BE21F53D15D1DCC000C968EA /* NSIndexPath_Extensions.m in Sources */,
-				BEB8F90915E80D04002D48AD /* CSVParser.m in Sources */,
-				BEDD54BD15EE6DA500049BD0 /* DMPaletteContainer.m in Sources */,
-				BEDD54BF15EE6DA500049BD0 /* DMPaletteSectionView.m in Sources */,
-				BEFE6BA315EEA8BC00D1C979 /* HNSourceViewController.m in Sources */,
-				BE07039A15EEAA3B00F4CB13 /* HNTabViewController.m in Sources */,
-				BE058AE516002FEB009FFB26 /* HNNSNotificationStrings.m in Sources */,
-				BEBA912B160353B1007A88D7 /* HNMenuItem.m in Sources */,
-				BE1B003C160609BD00095785 /* ImageAndTextCell.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE29C8CB15C6C53000407DD2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE29C8E215C6C53000407DD2 /* main.c in Sources */,
-				BE29C8E415C6C53000407DD2 /* GetMetadataForFile.m in Sources */,
-				BE29C8E715C6C53000407DD2 /* MySpotlightImporter.m in Sources */,
-				BE058AE616002FEB009FFB26 /* HNNSNotificationStrings.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BE29C8C115C6C53000407DD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BE29C89715C6C53000407DD2 /* GraphBase_A */;
-			targetProxy = BE29C8C015C6C53000407DD2 /* PBXContainerItemProxy */;
-		};
-		BE29C8D115C6C53000407DD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BE29C8CE15C6C53000407DD2 /* GraphBase_AImporter */;
-			targetProxy = BE29C8D015C6C53000407DD2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		33EDBC20178780D8007926EC /* MainMenu.xib */ = {
@@ -1220,7 +1028,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1249,7 +1056,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1267,38 +1073,6 @@
 			};
 			name = Release;
 		};
-		BE29C8ED15C6C53000407DD2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GraphBase_AImporter/GraphBase_AImporter-Prefix.pch";
-				INFOPLIST_FILE = "GraphBase_AImporter/GraphBase_AImporter-Info.plist";
-				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
-				LIBRARY_STYLE = BUNDLE;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = mdimporter;
-			};
-			name = Debug;
-		};
-		BE29C8EE15C6C53000407DD2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GraphBase_AImporter/GraphBase_AImporter-Prefix.pch";
-				INFOPLIST_FILE = "GraphBase_AImporter/GraphBase_AImporter-Info.plist";
-				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
-				LIBRARY_STYLE = BUNDLE;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = mdimporter;
-			};
-			name = Release;
-		};
 		BE29C8F015C6C53000407DD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1306,12 +1080,16 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../datagraph\"",
+					"$(PROJECT_DIR)/GraphBase_A",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GraphBase_A/GraphBase_A-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				IBC_WARNINGS = NO;
 				INFOPLIST_FILE = "GraphBase_A/GraphBase_A-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1324,44 +1102,18 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../datagraph\"",
+					"$(PROJECT_DIR)/GraphBase_A",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GraphBase_A/GraphBase_A-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				IBC_WARNINGS = NO;
 				INFOPLIST_FILE = "GraphBase_A/GraphBase_A-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		BE29C8F315C6C53000407DD2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GraphBase_A.app/Contents/MacOS/GraphBase_A";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GraphBase_A/GraphBase_A-Prefix.pch";
-				INFOPLIST_FILE = "GraphBase_ATests/GraphBase_ATests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		BE29C8F415C6C53000407DD2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GraphBase_A.app/Contents/MacOS/GraphBase_A";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GraphBase_A/GraphBase_A-Prefix.pch";
-				INFOPLIST_FILE = "GraphBase_ATests/GraphBase_ATests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -1377,29 +1129,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE29C8EC15C6C53000407DD2 /* Build configuration list for PBXNativeTarget "GraphBase_AImporter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BE29C8ED15C6C53000407DD2 /* Debug */,
-				BE29C8EE15C6C53000407DD2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BE29C8EF15C6C53000407DD2 /* Build configuration list for PBXNativeTarget "GraphBase_A" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE29C8F015C6C53000407DD2 /* Debug */,
 				BE29C8F115C6C53000407DD2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BE29C8F215C6C53000407DD2 /* Build configuration list for PBXNativeTarget "GraphBase_ATests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BE29C8F315C6C53000407DD2 /* Debug */,
-				BE29C8F415C6C53000407DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

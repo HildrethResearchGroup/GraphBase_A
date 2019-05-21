@@ -167,6 +167,7 @@
 
 
 -(void) updateGraphDrawingViewWithDataItem: (HNDataItem *) dataItem {
+    
 	DLog(@"CALLED - HNDataViewController: updateGraphDrawingViewWithDataItem");
     BOOL parseDataItemNeeded_yesNO = YES;
     BOOL updateGraphNeeded_yesNO   = YES;
@@ -229,6 +230,11 @@
     }
     
     
+    
+    // TEMP - force reparsing and reupdating graphTemplate every time
+    // TODO: Fix Temp
+    parseDataItemNeeded_yesNO = YES;
+    updateGraphNeeded_yesNO = YES;
     [self _updateGraphDrawingViewWithDataItem: dataItem
 						 thatNeedsToBeParsed: parseDataItemNeeded_yesNO
 					 andGraphTemplateUpdated: updateGraphNeeded_yesNO];
@@ -242,6 +248,7 @@
 -(void) _updateGraphDrawingViewWithDataItem:(HNDataItem *)dataItem
 					   thatNeedsToBeParsed: (BOOL) parseDataItemNeeded_yesNO
 				   andGraphTemplateUpdated: (BOOL) updateGraphNeeded_yesNO {
+    
 	// Local Variables
 	NSFileManager *fm = [NSFileManager defaultManager];
 	// CHANGED

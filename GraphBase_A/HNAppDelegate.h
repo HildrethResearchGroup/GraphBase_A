@@ -65,7 +65,6 @@
     
     // Accessory Views
     IBOutlet    HNAccessoryView *accessoryView_openDataFiles;
-    
 
 	
     

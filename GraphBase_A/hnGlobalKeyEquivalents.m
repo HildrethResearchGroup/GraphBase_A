@@ -8,7 +8,7 @@
 
 #import "hnGlobalKeyEquivalents.h"
 
-NSUInteger const hnCtrlCommandModifierMask = NSControlKeyMask | NSCommandKeyMask;
+NSUInteger const hnCtrlCommandModifierMask = NSEventModifierFlagControl | NSEventModifierFlagCommand; //Old NSControlKeyMask | NSCommandKeyMask;
 
 NSString * const hnKeyEquivalentNewProject                  = @"p";
 NSString * const hnKeyEquivalentNewFolder                   = @"f";

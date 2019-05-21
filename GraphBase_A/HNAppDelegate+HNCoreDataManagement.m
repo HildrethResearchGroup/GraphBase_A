@@ -190,7 +190,7 @@
 	
 	
 	
-	if ([[self.treeController arrangedObjects] count] == nil) {
+	if ([self.treeController arrangedObjects]  == nil) {
 		NSIndexPath *insertionPath = [self.treeController indexPathForInsertion];
 		[self addNewCollectionOfType: HNProjectCollectionType withInsertionPath: insertionPath];
 	}

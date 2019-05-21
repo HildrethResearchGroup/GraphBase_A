@@ -49,7 +49,6 @@
 		BE1789AC162F4535007A1BFC /* Source-Folders@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1789AA162F4535007A1BFC /* Source-Folders@2x.png */; };
 		BE1789B0162F458C007A1BFC /* Source-Experiment.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1789AE162F458C007A1BFC /* Source-Experiment.png */; };
 		BE1789B1162F458C007A1BFC /* Source-Experiment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1789AF162F458C007A1BFC /* Source-Experiment@2x.png */; };
-		BE181C7C1630EE3400FE2475 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = BE181C7B1630EE3400FE2475 /* icon.iconset */; };
 		BE181C7F1630EE6000FE2475 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = BE181C7E1630EE6000FE2475 /* icon.iconset */; };
 		BE1B003B160609BD00095785 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1B003A160609BD00095785 /* ImageAndTextCell.m */; };
 		BE1B0049160615C200095785 /* Source-Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1B0043160615C200095785 /* Source-Folder.png */; };
@@ -115,6 +114,7 @@
 		BEFE6BA215EEA8BC00D1C979 /* HNSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFE6BA115EEA8BC00D1C979 /* HNSourceViewController.m */; };
 		C08F5FA819F4B5A9001E4760 /* DataGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08F5FA719F4B5A9001E4760 /* DataGraph.framework */; };
 		C08F5FA919F4B5B6001E4760 /* DataGraph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C08F5FA719F4B5A9001E4760 /* DataGraph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C0BD8389229478C800C96E07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BD8388229478C800C96E07 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -173,7 +173,6 @@
 		33C3D274171627B6001A4B08 /* FieldCommand16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldCommand16.png; sourceTree = "<group>"; };
 		33C3D275171627B6001A4B08 /* FieldCommand24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldCommand24.png; sourceTree = "<group>"; };
 		33C3D276171627B6001A4B08 /* FieldCommand32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FieldCommand32.png; sourceTree = "<group>"; };
-		33EDBC21178780D8007926EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BE058AE216002FEB009FFB26 /* HNNSNotificationStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNNSNotificationStrings.h; sourceTree = "<group>"; };
 		BE058AE316002FEB009FFB26 /* HNNSNotificationStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNNSNotificationStrings.m; sourceTree = "<group>"; };
 		BE07039715EEAA3B00F4CB13 /* HNTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNTabViewController.h; sourceTree = "<group>"; };
@@ -314,6 +313,8 @@
 		BEFE6BA015EEA8BC00D1C979 /* HNSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNSourceViewController.h; sourceTree = "<group>"; };
 		BEFE6BA115EEA8BC00D1C979 /* HNSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNSourceViewController.m; sourceTree = "<group>"; };
 		C08F5FA719F4B5A9001E4760 /* DataGraph.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DataGraph.framework; path = GraphBase_A/DataGraph.framework; sourceTree = "<group>"; };
+		C0BD8388229478C800C96E07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0D2F7D9229477CC00DD14AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -491,6 +492,7 @@
 				BE29C92E15C6D29900407DD2 /* UI Classes */,
 				338659731709F39100E8BDA4 /* UI Images and Icons */,
 				BE29C92D15C6D28500407DD2 /* XIB Files */,
+				C0BD8388229478C800C96E07 /* Images.xcassets */,
 				BE29C8A315C6C53000407DD2 /* Supporting Files */,
 			);
 			path = GraphBase_A;
@@ -835,16 +837,16 @@
 			attributes = {
 				CLASSPREFIX = HN;
 				LastTestingUpgradeCheck = 0600;
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Owen Hildreth";
 			};
 			buildConfigurationList = BE29C89215C6C53000407DD2 /* Build configuration list for PBXProject "GraphBase_A" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = BE29C88D15C6C53000407DD2;
 			productRefGroup = BE29C89915C6C53000407DD2 /* Products */;
@@ -866,6 +868,7 @@
 				BE29C91115C6C5E900407DD2 /* Tab-Graph.png in Resources */,
 				BE29C91215C6C5E900407DD2 /* Tab-Graph@2x.png in Resources */,
 				BE29C91515C6C5E900407DD2 /* Tab-Info.png in Resources */,
+				C0BD8389229478C800C96E07 /* Images.xcassets in Resources */,
 				BE29C91615C6C5E900407DD2 /* Tab-Info@2x.png in Resources */,
 				BE29C91915C6C5E900407DD2 /* Tab-Parser.png in Resources */,
 				BE29C91A15C6C5E900407DD2 /* Tab-Parser@2x.png in Resources */,
@@ -889,7 +892,6 @@
 				BE1789AC162F4535007A1BFC /* Source-Folders@2x.png in Resources */,
 				BE1789B0162F458C007A1BFC /* Source-Experiment.png in Resources */,
 				BE1789B1162F458C007A1BFC /* Source-Experiment@2x.png in Resources */,
-				BE181C7C1630EE3400FE2475 /* icon.iconset in Resources */,
 				BE181C7F1630EE6000FE2475 /* icon.iconset in Resources */,
 				BE59FA0C165747320017E8C2 /* DocumentIcon - ParseTemplate.png in Resources */,
 				330EF60F166FE3C300493FBB /* AccessoryView - Open Data Panel.xib in Resources */,
@@ -984,7 +986,7 @@
 		33EDBC20178780D8007926EC /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				33EDBC21178780D8007926EC /* en */,
+				C0D2F7D9229477CC00DD14AE /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -1028,13 +1030,33 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1043,7 +1065,9 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBC_WARNINGS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -1056,16 +1080,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBC_WARNINGS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -1076,6 +1121,7 @@
 		BE29C8F015C6C53000407DD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1090,6 +1136,7 @@
 				INFOPLIST_FILE = "GraphBase_A/GraphBase_A-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.H-Nano.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1098,6 +1145,7 @@
 		BE29C8F115C6C53000407DD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1112,6 +1160,7 @@
 				INFOPLIST_FILE = "GraphBase_A/GraphBase_A-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.H-Nano.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -49,7 +49,7 @@ static CGFloat kDMTabBarItemGradientColor_Locations[] =     {0.0f, 0.5f, 1.0f};
         tabBarItemButton.image = iconImage;
         [tabBarItemButton setEnabled:YES];
         tabBarItemButton.tag = itemTag;
-        [tabBarItemButton sendActionOn:NSLeftMouseDownMask];
+        [tabBarItemButton sendActionOn:NSEventMaskLeftMouseDown];
     }
     return self;
 }
@@ -70,12 +70,12 @@ static CGFloat kDMTabBarItemGradientColor_Locations[] =     {0.0f, 0.5f, 1.0f};
     return tabBarItemButton.image;  
 }
 
-- (void) setTag:(NSUInteger)newTag {  
+- (void) setTag:(NSInteger) newTag {
     tabBarItemButton.tag = newTag; 
 }
 
-- (NSUInteger) tag {	
-    return (unsigned) tabBarItemButton.tag ;
+- (NSInteger) tag {
+    return tabBarItemButton.tag ;
 }
 
 - (void) setToolTip:(NSString *)newToolTip {   
@@ -120,7 +120,7 @@ static CGFloat kDMTabBarItemGradientColor_Locations[] =     {0.0f, 0.5f, 1.0f};
 - (id)init {
     self = [super init];
     if (self) {
-        self.bezelStyle = NSTexturedRoundedBezelStyle;
+        self.bezelStyle = NSBezelStyleTexturedRounded;
     }
     return self;
 }
@@ -130,7 +130,7 @@ static CGFloat kDMTabBarItemGradientColor_Locations[] =     {0.0f, 0.5f, 1.0f};
 }
 
 - (void) drawBezelWithFrame:(NSRect)frame inView:(NSView *)controlView {
-    if (self.state == NSOnState) { 
+    if (self.state == NSControlStateValueOn) {
         // If selected we need to draw the border new background for selection (otherwise we will use default back color)
         // Save current context
         [[NSGraphicsContext currentContext] saveGraphicsState];

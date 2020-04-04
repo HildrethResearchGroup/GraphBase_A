@@ -315,12 +315,13 @@ NSString * const HNDIP_minValue		= @"HNDIP_minValue";
 		xmlData = [NSPropertyListSerialization dataFromPropertyList: localPropertyList
 															 format: NSPropertyListXMLFormat_v1_0
 												   errorDescription: &error];
+        
 		
 		if (xmlData) {
 			[xmlData writeToFile: propertyListPath atomically: YES];
 		}
 		else {
-			DLog(error);
+            DLog(@"%@", error);
 		}
 		
 		return localPropertyList;
@@ -388,7 +389,7 @@ NSString * const HNDIP_minValue		= @"HNDIP_minValue";
 	}
 	
 	else {
-		DLog(error);
+        DLog(@"%@", error);
 		return NO;
 	}
 }

@@ -641,13 +641,16 @@
 			[alert setInformativeText:info];
 			[alert addButtonWithTitle:dismissButton];
 			//[alert addButtonWithTitle:dontShowErrorButton];
-			[alert setAlertStyle: NSInformationalAlertStyle];
+            [alert setAlertStyle: NSAlertStyleInformational];
 			[alert setShowsSuppressionButton: YES];
 			
-			[alert beginSheetModalForWindow: [[NSApplication sharedApplication] keyWindow]
+            [alert beginSheetModalForWindow: [[NSApplication sharedApplication] keyWindow]
 							  modalDelegate: self
 							 didEndSelector: @selector(alertDidEnd:returnCode:contextInfo:)
 								contextInfo:nil];
+
+            
+            
 			
 			//[alert runModal];
 			// Check suppressButton state

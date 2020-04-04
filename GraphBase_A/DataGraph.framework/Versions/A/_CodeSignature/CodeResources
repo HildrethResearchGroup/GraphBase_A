@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Resources/Add Token Button.pdf</key>
+		<data>
+		v/D7aHrHZvxveHlI3+IjCtGf0og=
+		</data>
+		<key>Resources/Anchored Image.pdf</key>
+		<data>
+		B9uWfnEoLSAGRUyu3AnDikApJVg=
+		</data>
+		<key>Resources/AppIcon.icns</key>
+		<data>
+		IPHlu5pZQtXAaaS1jPxdKMEUxd4=
+		</data>
+		<key>Resources/Arrow Big.pdf</key>
+		<data>
+		gqlTgqlmDyQgQsKc2yIHsQpl8CU=
+		</data>
+		<key>Resources/Arrow Medium.pdf</key>
+		<data>
+		TRHLzpqH+3mQgZrdnm3mgZVdL+I=
+		</data>
+		<key>Resources/Arrow Small.pdf</key>
+		<data>
+		xbgkycY4HhPUzjk/3Xf4/Xtl9PI=
+		</data>
+		<key>Resources/Axis Join Join.pdf</key>
+		<data>
+		jP53R9JDYCoLCUlOwWdmkxF+2MI=
+		</data>
+		<key>Resources/Axis Join Stack.pdf</key>
+		<data>
+		P1b7oIL5NUhmnYYm1PwdHNFoPeg=
+		</data>
+		<key>Resources/Axis Stack Join.pdf</key>
+		<data>
+		O8KmG5zlXY0fSZjASbyIf1Bam3E=
+		</data>
+		<key>Resources/Axis Stack Stack.pdf</key>
+		<data>
+		rySx6A2yC9/H9cMdQ/M8RgHlyXk=
+		</data>
+		<key>Resources/Axis.pdf</key>
+		<data>
+		G67SLBUqj7zQG4j0u5iSfdnKSY8=
+		</data>
+		<key>Resources/Bars.pdf</key>
+		<data>
+		4jjZeCuo3TLgD6dCsgYHSBnLaqQ=
+		</data>
+		<key>Resources/Binary Column.pdf</key>
+		<data>
+		lUUO/NNxI2g+QJBqlMa7K9vd0yE=
+		</data>
+		<key>Resources/Binary Column.png</key>
+		<data>
+		jKB36Kzh2Jy671rwYJDbXFiuejs=
+		</data>
+		<key>Resources/Binary Column@2x.png</key>
+		<data>
+		JdvgODXb+VJpt/ALMcIBFkeus+Y=
+		</data>
+		<key>Resources/Box.pdf</key>
+		<data>
+		7UehHaNrS4kvcSf5uxWzepOStSE=
+		</data>
+		<key>Resources/Canvas.pdf</key>
+		<data>
+		5/mZ+P3gcYSoZ51K62BUz4NAYf8=
+		</data>
+		<key>Resources/CanvasDiagram.pdf</key>
+		<data>
+		wT/rND6K3uRuGLkJQOlS/WhTxGE=
+		</data>
+		<key>Resources/Color Legend.pdf</key>
+		<data>
+		ufPCBohy9lCuORD146e4JWSc9NM=
+		</data>
+		<key>Resources/Color Scheme.pdf</key>
+		<data>
+		U9eaim8xf7IkAPJPVs7OH4mRVL0=
+		</data>
+		<key>Resources/Color Tile.pdf</key>
+		<data>
+		yPA9Byo9HojSLdwKW7ZD7kXoyso=
+		</data>
+		<key>Resources/Column Binary.pdf</key>
+		<data>
+		8WgJ5hDnytyD7UUjxJE2DFF8XpE=
+		</data>
+		<key>Resources/Column Date.pdf</key>
+		<data>
+		57RB/M3rivvqrQ2NgHiRduT+2WQ=
+		</data>
+		<key>Resources/Column Expression.pdf</key>
+		<data>
+		zdWiaJoiY84BZocHYDb6bIKfTyE=
+		</data>
+		<key>Resources/Column Menu.pdf</key>
+		<data>
+		pjxWi1/Q8gOdM3egV4RGAxAVhAs=
+		</data>
+		<key>Resources/Column Number.pdf</key>
+		<data>
+		qGYYe0MsnnHjDzlDo95t36AjKHI=
+		</data>
+		<key>Resources/Column Plot Action.png</key>
+		<data>
+		aYFu4w1tZl8Sm8XoHfeII6y8HBA=
+		</data>
+		<key>Resources/Column Plot Action@2x.png</key>
+		<data>
+		v+fgwpo6DbtugzZ2+bvrJTIcMBg=
+		</data>
+		<key>Resources/Column RowNumber.pdf</key>
+		<data>
+		mzjkF5cbarXDfK5gBsH0JJWR+X8=
+		</data>
+		<key>Resources/Column String.pdf</key>
+		<data>
+		Ub4v20jaM3XX71pcgV08bP8T4Pk=
+		</data>
+		<key>Resources/Column StringExpression.pdf</key>
+		<data>
+		yunDo94e1H5/fmbVrLYM4WuYSSo=
+		</data>
+		<key>Resources/Date Column.pdf</key>
+		<data>
+		erRsc+fIpm3PDa6olxoiZ8T4jIY=
+		</data>
+		<key>Resources/Date Column.png</key>
+		<data>
+		GHgs8Rxi/9sxIZaU7cI1UDIB8U4=
+		</data>
+		<key>Resources/Date Column@2x.png</key>
+		<data>
+		Oj+nPoxB402KjilDiq41NWqmg2M=
+		</data>
+		<key>Resources/Definitions.pdf</key>
+		<data>
+		JJ47qsVaXyhtwSQcMOl8FgmaKhQ=
+		</data>
+		<key>Resources/Dot Column.png</key>
+		<data>
+		xumwwOkiKGn9dSyomOkaYPT31CM=
+		</data>
+		<key>Resources/Dot Column@2x.png</key>
+		<data>
+		Na0k97iyKjycusNneuaFcG/ErKU=
+		</data>
+		<key>Resources/Expression Column.pdf</key>
+		<data>
+		1sZiyRyMeeS0jL/jd2uX87g2Hbw=
+		</data>
+		<key>Resources/Expression Column.png</key>
+		<data>
+		6X2YruE4OtZujVIqcujCXa/GDmU=
+		</data>
+		<key>Resources/Expression Column@2x.png</key>
+		<data>
+		YJvYYCw9S5I06njdwPblrsnxiJY=
+		</data>
+		<key>Resources/Extra Axis.pdf</key>
+		<data>
+		FtzIRiNLxNiJcBBsF4fQgmzg7jo=
+		</data>
+		<key>Resources/Extra X Axis.pdf</key>
+		<data>
+		OXTJzBdw71ZfG30rSmX97cOD48Y=
+		</data>
+		<key>Resources/Extra Y Axis.pdf</key>
+		<data>
+		6Y02AFYuQSQwb27q0UjnHEXjjOo=
+		</data>
+		<key>Resources/FileIcon.icns</key>
+		<data>
+		NvkH69ZCG3V4FJFYW6domuueZuc=
+		</data>
+		<key>Resources/Fit.pdf</key>
+		<data>
+		kfy0VTO6EDJmjebKNFkMBZ6Jm3Y=
+		</data>
+		<key>Resources/Function.pdf</key>
+		<data>
+		NqQ+dz7qQqIQOq0Cb/GHLqhlGnA=
+		</data>
+		<key>Resources/GearInButton.pdf</key>
+		<data>
+		GROYQLMmwZ8hvZJ8DU4eDY2pLt8=
+		</data>
+		<key>Resources/GearInButtonCompact.png</key>
+		<data>
+		KOVDEsRQSlq+ak9AUJCDzTGHCXM=
+		</data>
+		<key>Resources/GearInButtonCompact@2x.png</key>
+		<data>
+		H+amx/UcA2wyAUxfPO/6G90djho=
+		</data>
+		<key>Resources/Graphic.pdf</key>
+		<data>
+		enSqlmBjHR1kjpJHpVJrbRDJpoM=
+		</data>
+		<key>Resources/Histogram.pdf</key>
+		<data>
+		tAW7XXzXNy7Sdqjli2J8fnGOH48=
+		</data>
+		<key>Resources/Info.plist</key>
+		<data>
+		lmr0DsfNxwqj9lXZvdvtnuYyUO8=
+		</data>
+		<key>Resources/Label.pdf</key>
+		<data>
+		hRVlPsdYMBowaDlZxuEaPeOF2/c=
+		</data>
+		<key>Resources/Legend.pdf</key>
+		<data>
+		FGuAiZ+hQ8iFqTGx+iFzV8oFAq0=
+		</data>
+		<key>Resources/Lines.pdf</key>
+		<data>
+		wY4UbgSc7kOD+E+t4YDYVVEb3kc=
+		</data>
+		<key>Resources/Loupe Check Icon.pdf</key>
+		<data>
+		Aa74LLqxZIIwhVfzkPmo7jaW5kI=
+		</data>
+		<key>Resources/Loupe Icon.pdf</key>
+		<data>
+		J2lOUydRBFt0cFGB4eH0Y1XQoWk=
+		</data>
+		<key>Resources/Minus.pdf</key>
+		<data>
+		N4NuKFtSmpXWb3AKQARbZAOVw9s=
+		</data>
+		<key>Resources/MinusInButton.pdf</key>
+		<data>
+		QlaHlpG62Z50UcfzGAxgnUTfHbw=
+		</data>
+		<key>Resources/MinusSmall.pdf</key>
+		<data>
+		MZZ1OJ/4MP127jni6XlCIGm4g7I=
+		</data>
+		<key>Resources/Multiple Lines.pdf</key>
+		<data>
+		SnLb2vXRHIKsuyaU4vdb3SFcSck=
+		</data>
+		<key>Resources/Parameter Drawer.pdf</key>
+		<data>
+		CmkLQE4mxIBl2TencsGtgJKtZ14=
+		</data>
+		<key>Resources/Parameter.pdf</key>
+		<data>
+		xYB8uBPlyu1pwqGc6etCL6OW3Dg=
+		</data>
+		<key>Resources/Pattern1.pdf</key>
+		<data>
+		AGHf+VhbDPDL/n+DXMZAEyYl+eo=
+		</data>
+		<key>Resources/Pattern11.pdf</key>
+		<data>
+		kvs82XxhMyXUtEqNUvchKg1pyYo=
+		</data>
+		<key>Resources/Pattern12.pdf</key>
+		<data>
+		Wk5ih/J5+HnAqbwesUyut2JRvVE=
+		</data>
+		<key>Resources/Pattern13.pdf</key>
+		<data>
+		oz8R2VtU4gb9r8eXHBETY1j39h8=
+		</data>
+		<key>Resources/Pattern14.pdf</key>
+		<data>
+		Bb96+f8e5S77L2E68WYMJXvWySc=
+		</data>
+		<key>Resources/Pattern15.pdf</key>
+		<data>
+		hZA3JI5OHKFtJSUHQsIXgR/B1vk=
+		</data>
+		<key>Resources/Pattern16.pdf</key>
+		<data>
+		rUg95KVDL00AxUi2uWCCUfL6oMw=
+		</data>
+		<key>Resources/Pattern2.pdf</key>
+		<data>
+		yYyb6OyrhD/fyuYSFGSYOpmuKsA=
+		</data>
+		<key>Resources/Pattern3.pdf</key>
+		<data>
+		Ppd2y0Z9Ma1+TnpidrIWu8G6xWQ=
+		</data>
+		<key>Resources/Pattern4.pdf</key>
+		<data>
+		62tA3+ri4C87ENyUfGJKj7KvYIQ=
+		</data>
+		<key>Resources/Pattern5.pdf</key>
+		<data>
+		XziFslSxA97biA+0vRxtbX9oIYE=
+		</data>
+		<key>Resources/Pattern6.pdf</key>
+		<data>
+		+Bs9UbtTIczNLNlDr1SBmjiU0Hk=
+		</data>
+		<key>Resources/Pause Button.pdf</key>
+		<data>
+		4VYM9ap23HEAIL1GSZrGV8fHfgE=
+		</data>
+		<key>Resources/Play Button.pdf</key>
+		<data>
+		Zft8U07h1wyirGTkR9wTZP3jF6s=
+		</data>
+		<key>Resources/Plot.pdf</key>
+		<data>
+		inAEIl3qOsiapgSHa0BWPU7aDQg=
+		</data>
+		<key>Resources/Plus.pdf</key>
+		<data>
+		qfgpLHgttm/YQ2QwXTn+lT4ShDs=
+		</data>
+		<key>Resources/PlusInButton.pdf</key>
+		<data>
+		GYz+Ud++fi6R4E5hCy6NVBUNqyA=
+		</data>
+		<key>Resources/PlusSmall.pdf</key>
+		<data>
+		wIyZPnGdl3beYMhaDht53Mx9qzI=
+		</data>
+		<key>Resources/QuickTime Button.pdf</key>
+		<data>
+		yqKi7EZIjP/YoJTfiUTK/6V1bK8=
+		</data>
+		<key>Resources/Range.pdf</key>
+		<data>
+		lEs0DzpjTdsGHkh7W+NB1AdQ2FY=
+		</data>
+		<key>Resources/RedDot.pdf</key>
+		<data>
+		MSK+O39xHq+AZxXrU0Mlozc/NKc=
+		</data>
+		<key>Resources/Rotate0.pdf</key>
+		<data>
+		tqngQA6KJHKAiJ9jy4ZKdSg/n1g=
+		</data>
+		<key>Resources/Rotate180.pdf</key>
+		<data>
+		+lrdJCHN2MsowUY+qqZDiZYPBI8=
+		</data>
+		<key>Resources/Rotate270.pdf</key>
+		<data>
+		FBzmj8D5PHWcFrCmwKp4Bn8Fo6E=
+		</data>
+		<key>Resources/Rotate90.pdf</key>
+		<data>
+		2ErmIU/QCqNHR8NqKZDgPF4ll+s=
+		</data>
+		<key>Resources/Scatter.pdf</key>
+		<data>
+		A29zWmZVLXe/7o+0qMTjnWdSlpI=
+		</data>
+		<key>Resources/Single Line.pdf</key>
+		<data>
+		8we+uq+nU3efA7/smghyPbIMUs8=
+		</data>
+		<key>Resources/Small Add Token Button.pdf</key>
+		<data>
+		AvBoeNfwQqYE5X9uhyEqd1hvXSI=
+		</data>
+		<key>Resources/Stop Button.pdf</key>
+		<data>
+		ovz51xcLZY5hFa8oPgdCc6/y+9I=
+		</data>
+		<key>Resources/String Column.pdf</key>
+		<data>
+		mw3JsAvpqiZqRE84b+8pSZmJ8SU=
+		</data>
+		<key>Resources/String Column.png</key>
+		<data>
+		I5qw3gPpOlHRC4ti10aeGumdv2I=
+		</data>
+		<key>Resources/String Column@2x.png</key>
+		<data>
+		zZVsrlBnQluPAxqTocV8oPTZ5Os=
+		</data>
+		<key>Resources/String Expression Column.pdf</key>
+		<data>
+		T8MnxfBnynOC4fnWsSekgWY1u0I=
+		</data>
+		<key>Resources/String Expression Column.png</key>
+		<data>
+		BG4EKi/OCV2XVtU5TZqOLme/y/I=
+		</data>
+		<key>Resources/String Expression Column@2x.png</key>
+		<data>
+		kUz1X8XFUPHvGF4XjQ4Q9Bm6oqc=
+		</data>
+		<key>Resources/Text Block.pdf</key>
+		<data>
+		2Id6FbMAJpC1UFP/zyNM3dRsohE=
+		</data>
+		<key>Resources/X Axis.pdf</key>
+		<data>
+		cf2lBx1uJsAJJih/RUz+Mg59f8w=
+		</data>
+		<key>Resources/Y Axis.pdf</key>
+		<data>
+		HIsqMuYEnTg/avfb4VI0JbCHv0s=
+		</data>
+		<key>Resources/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/x Crop.pdf</key>
+		<data>
+		UUtc/BA2YgZ+cxjwuLIfo6FAzVM=
+		</data>
+		<key>Resources/y Crop.pdf</key>
+		<data>
+		DQC+2q1YlCi3IWBo/YLFS5TjlbY=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

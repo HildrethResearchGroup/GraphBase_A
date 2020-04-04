@@ -65,13 +65,13 @@
     gradientEndColor = [NSColor colorWithCalibratedRed:0.741 green:0.749 blue:0.831 alpha:1.0];
     
     disclosureTriangle = [[NSButton alloc] initWithFrame:NSMakeRect(5.0, 4.0, 13.0, 13.0)];
-    [disclosureTriangle setBezelStyle:NSDisclosureBezelStyle];
-    [disclosureTriangle setButtonType: NSPushOnPushOffButton];
-    [disclosureTriangle setTitle:nil];
+    [disclosureTriangle setBezelStyle:NSBezelStyleDisclosure];
+    [disclosureTriangle setButtonType: NSButtonTypePushOnPushOff];
+    [disclosureTriangle setTitle:@""];
     [disclosureTriangle highlight:NO];
     [disclosureTriangle setTarget:self];
     [disclosureTriangle setAction:@selector(disclosureClicked:)];
-    disclosureTriangle.state = (state == DMPaletteStateExpanded ? NSOnState : NSOffState);
+    disclosureTriangle.state = (state == DMPaletteStateExpanded ? NSControlStateValueOn : NSControlStateValueOff);
     
     // CHANGED
     nameField = [[NSTextField alloc] initWithFrame:NSMakeRect(20.0, 3.0, [self bounds].size.width - 8.0, 15.0)];
@@ -106,7 +106,7 @@
     
     // Transparent background
     //[[NSColor clearColor] set];
-    NSRectFillUsingOperation(dirtyRect, NSCompositeCopy);
+    NSRectFillUsingOperation(dirtyRect, NSCompositingOperationCopy);
     
     NSRect gradientFrame = NSMakeRect(0, 0, dirtyRect.size.width, kDMPaletteSectionHeaderHeight);
     NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:gradientStartColor endingColor:gradientEndColor];
@@ -141,12 +141,12 @@
 
 - (NSComparisonResult)compare:(DMPaletteSectionView *)otherView {
     if(otherView.index > index)
-        return NSGreaterThanComparison;
+        return NSOrderedDescending ; //OLD: NSGreaterThanComparison
     
     if(otherView.index < index)
-        return NSLessThanComparison;
+        return NSOrderedAscending; //OLD: NSLessThanComparison
     
-    return NSEqualToComparison;
+    return NSOrderedSame; //OLD: NSEqualToComparison
 }
 
 -(void)disclosureClicked:(id)sender {

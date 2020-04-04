@@ -93,7 +93,7 @@
         DMTabBarItem *item1 = [DMTabBarItem tabBarItemWithIcon:iconImage tag:idx];
         item1.toolTip = [objDict objectForKey:@"title"];
         item1.keyEquivalent = [NSString stringWithFormat:@"%ld",idx];
-        item1.keyEquivalentModifierMask = NSCommandKeyMask;
+        item1.keyEquivalentModifierMask = NSEventModifierFlagCommand;
         [items addObject:item1];
     }];
     
@@ -110,7 +110,7 @@
     [tabBar handleTabBarItemSelection:^(DMTabBarItemSelectionType selectionType, DMTabBarItem *targetTabBarItem, NSUInteger targetTabBarItemIndex) {
         if (selectionType == DMTabBarItemSelectionType_WillSelect) {
             //DLog(@"Will select %lu/%@",targetTabBarItemIndex,targetTabBarItem);
-            [tabView selectTabViewItem:[tabView.tabViewItems objectAtIndex:targetTabBarItemIndex]];
+            [self->tabView selectTabViewItem:[self->tabView.tabViewItems objectAtIndex:targetTabBarItemIndex]];
         } else if (selectionType == DMTabBarItemSelectionType_DidSelect) {
             //DLog(@"Did select %lu/%@",targetTabBarItemIndex,targetTabBarItem);
         }

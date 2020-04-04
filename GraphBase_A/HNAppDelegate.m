@@ -588,7 +588,8 @@
         [[NSApplication sharedApplication] presentError:error];
         return nil;
     }
-    _managedObjectContext = [[NSManagedObjectContext alloc] init];
+    //OLD: _managedObjectContext = [[NSManagedObjectContext alloc] init];
+    _managedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType: NSMainQueueConcurrencyType];
     [_managedObjectContext setPersistentStoreCoordinator:coordinator];
 	
     
@@ -799,7 +800,7 @@
     for (NSString *nextFilePath in filePathsArray) {
         if ([fm fileExistsAtPath: nextFilePath]) {
             [workSpace selectFile: nextFilePath
-         inFileViewerRootedAtPath: nil];
+         inFileViewerRootedAtPath: @""]; //OLD: nil
         }
     }
 }

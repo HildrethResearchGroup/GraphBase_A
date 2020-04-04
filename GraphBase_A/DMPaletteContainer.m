@@ -64,8 +64,8 @@
         paletteSection.autoresizingMask = NSViewWidthSizable;
         paletteSection.container = self;
         paletteSection.index = idx;
-        [contentView addSubview:paletteSection];
-        [contentView setAutoresizesSubviews: YES];
+        [self->contentView addSubview:paletteSection];
+        [self->contentView setAutoresizesSubviews: YES];
     }];
     [self layoutSubviews];
 }

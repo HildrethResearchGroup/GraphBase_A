@@ -292,7 +292,7 @@
 
 	
 	[openPanel beginSheetModalForWindow: [self window] completionHandler:^(NSInteger result) {
-        if (result == NSFileHandlingPanelOKButton) {
+        if (result == NSModalResponseOK) {
             HNTreeNode *selectedNode = [[self.treeController selectedObjects] firstObject];
             NSArray *newFileURLs = [openPanel URLs];
             
@@ -560,7 +560,7 @@
 	
 	
 	[openPanel beginSheetModalForWindow: [self window] completionHandler:^(NSInteger result) {
-        if (result == NSFileHandlingPanelOKButton) {
+        if (result == NSModalResponseOK) {
 			NSArray *filePaths = [openPanel URLs];
 			
 			HNTreeNode *selectedNode = [[[self.treeController selectedNodes] lastObject] representedObject];
@@ -780,7 +780,7 @@
 	[openPanel setAllowedFileTypes: fileTypeExtensions];
 		
 	[openPanel beginSheetModalForWindow: [self window] completionHandler:^(NSInteger result) {
-        if (result == NSFileHandlingPanelOKButton) {
+        if (result == NSModalResponseOK) {
             NSArray *filesFromOpenPanel = [openPanel URLs];
             if ([filesFromOpenPanel count] > 0) {
                 HNTreeNode *targetTreeNode = [[self.treeController selectedObjects] firstObject];
@@ -969,8 +969,6 @@
 	HNParseTemplate *newParseTemplate = [self createNewEmptyParseTemplateAndPlaceInTreeNode: targeTreeNode withAutoSave: NO];
 	
 	
-	
-	
 	// Get Parse template details from filePath
 	NSFileManager *fm = [NSFileManager defaultManager];
 	
@@ -1068,7 +1066,7 @@
         [openPanel setAllowedFileTypes: nil];
 
         [openPanel beginSheetModalForWindow: [self window] completionHandler:^(NSInteger result) {
-            if (result == NSFileHandlingPanelOKButton) {
+            if (result == NSModalResponseOK) {
                 //HNTreeNode *selectedNode = [[self.treeController selectedObjects] firstObject];
                 //[self createNewDataItemsFromFilePathURLs: [openPanel URLs] andPlaceInTreeNode: selectedNode];
                 NSMutableDictionary *localUserInfo = [NSMutableDictionary dictionaryWithDictionary: userInfo];
@@ -1276,7 +1274,7 @@
 			DLog(@"setting defaultGraphTemplate from defaults");
 			HNGraphTemplate *defaultGraphTemplate = [defaults firstObject];
 			[newTreeNode setDefaultGraphTemplate: defaultGraphTemplate];
-			defaultGraphTemplate = NO;
+            //defaultGraphTemplate = nil; //OLD: NO
 		}
 		
 		if ( (defaultGraphNeeded)  && ( [newHNGraphTemplates count] > 0 )  ) {
@@ -1780,7 +1778,7 @@
     [openPanel setAllowedFileTypes: @[ @"" ]];
     
     [openPanel beginSheetModalForWindow: [self window] completionHandler: ^(NSInteger result) {
-        if (result == NSFileHandlingPanelOKButton) {
+        if (result == NSModalResponseOK) {
             NSURL *destinationURL;
             destinationURL = [openPanel URL];
             DLog(@"destinationURL in block = %@", destinationURL);

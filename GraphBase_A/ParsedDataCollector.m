@@ -123,6 +123,9 @@
         NSMutableAttributedString *contentAttributedString = [[NSMutableAttributedString alloc]
 															  initWithPath:dataFilePath
 															  documentAttributes: &dataContentAttributes];
+        
+        
+        
         //DLog(@"dataContentAttributes Dictionary = %@", dataContentAttributes);
 				
 		if (contentAttributedString) {

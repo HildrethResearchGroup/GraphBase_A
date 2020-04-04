@@ -93,7 +93,7 @@
 
     
     // Item 0 - Add New FOLDER  (COLLECTIONS SUBMENU)
-    HNMenuItem *folderMenuItem = [[HNMenuItem alloc] initWithTitle: @"New Folder" action: nil keyEquivalent: hnKeyEquivalentNewFolder keyEquivalentModifierMask: NSControlKeyMask | NSCommandKeyMask];
+    HNMenuItem *folderMenuItem = [[HNMenuItem alloc] initWithTitle: @"New Folder" action: nil keyEquivalent: hnKeyEquivalentNewFolder keyEquivalentModifierMask: NSEventModifierFlagControl | NSEventModifierFlagCommand];
     
     NSDictionary *folderUserInfo = @{ HNCollectionOfType : HNFolderCollectionType };
     [folderMenuItem setUserInfo: folderUserInfo];
@@ -104,7 +104,7 @@
     
 	
     // Item 1 - Add New EXPERIMENT  (COLLECTIONS SUBMENU)
-    HNMenuItem *experimentMenuItem = [[HNMenuItem alloc] initWithTitle: @"New Experiment" action: nil keyEquivalent: hnKeyEquivalentNewExperiment keyEquivalentModifierMask: NSControlKeyMask | NSCommandKeyMask];
+    HNMenuItem *experimentMenuItem = [[HNMenuItem alloc] initWithTitle: @"New Experiment" action: nil keyEquivalent: hnKeyEquivalentNewExperiment keyEquivalentModifierMask: NSEventModifierFlagControl | NSEventModifierFlagCommand];
     
     NSDictionary *experimentUserInfo = @{ HNCollectionOfType : HNExperimentCollectionType };
     [experimentMenuItem setUserInfo: experimentUserInfo];
@@ -115,7 +115,7 @@
     
     
     // Item 2 - Add New PROJECT  (COLLECTIONS SUBMENU)
-    HNMenuItem *projectMenuItem = [[HNMenuItem alloc] initWithTitle: @"New Project" action: nil keyEquivalent: hnKeyEquivalentNewProject keyEquivalentModifierMask: NSControlKeyMask | NSCommandKeyMask];
+    HNMenuItem *projectMenuItem = [[HNMenuItem alloc] initWithTitle: @"New Project" action: nil keyEquivalent: hnKeyEquivalentNewProject keyEquivalentModifierMask: NSEventModifierFlagControl | NSEventModifierFlagCommand];
     
 	NSDictionary *projectUserInfo = @{ HNCollectionOfType : HNProjectCollectionType };
     [projectMenuItem setUserInfo: projectUserInfo];
@@ -137,7 +137,7 @@
     
     
     // Item 0- Add New DATA Files
-    HNMenuItem *dataFilesMenuItem = [[HNMenuItem alloc] initWithTitle: @"Data Files" action: nil keyEquivalent: hnKeyEquivalentImportDataFiles keyEquivalentModifierMask: NSControlKeyMask | NSCommandKeyMask];
+    HNMenuItem *dataFilesMenuItem = [[HNMenuItem alloc] initWithTitle: @"Data Files" action: nil keyEquivalent: hnKeyEquivalentImportDataFiles keyEquivalentModifierMask: NSEventModifierFlagControl | NSEventModifierFlagCommand];
     
     NSDictionary *dataFilesUserInfo = @{HNaddFilesFrom : HNAddFilesFromNSOpenPanel};
     [dataFilesMenuItem setUserInfo: dataFilesUserInfo];
@@ -147,7 +147,7 @@
     
     
     // Item 1- Import Directory
-    HNMenuItem *importDirectoryMenuItem = [[HNMenuItem alloc] initWithTitle: @"Directory" action: nil keyEquivalent: @"" keyEquivalentModifierMask: NSControlKeyMask | NSCommandKeyMask];
+    HNMenuItem *importDirectoryMenuItem = [[HNMenuItem alloc] initWithTitle: @"Directory" action: nil keyEquivalent: @"" keyEquivalentModifierMask: NSEventModifierFlagControl | NSEventModifierFlagCommand];
     
     NSDictionary *importFoldersUserInfo = @{HNaddFilesFrom : HNAddFilesFromNSOpenPanel};
     [importDirectoryMenuItem setUserInfo: importFoldersUserInfo];
@@ -157,7 +157,7 @@
     
     
     // Item 2 - Import Graph Template
-    HNMenuItem *importGraphTemplateMenuItem = [[HNMenuItem alloc] initWithTitle: @"Graph Template" action: nil keyEquivalent: hnKeyEquivalentImportGraphTemplateFiles keyEquivalentModifierMask: NSControlKeyMask | NSCommandKeyMask];
+    HNMenuItem *importGraphTemplateMenuItem = [[HNMenuItem alloc] initWithTitle: @"Graph Template" action: nil keyEquivalent: hnKeyEquivalentImportGraphTemplateFiles keyEquivalentModifierMask: NSEventModifierFlagControl | NSEventModifierFlagCommand];
     
     NSDictionary *importGraphTemplateUserInfo = @{HNaddFilesFrom : HNAddFilesFromNSOpenPanel};
     [importGraphTemplateMenuItem setUserInfo: importGraphTemplateUserInfo];
@@ -167,7 +167,7 @@
     
     
     // Item 3 - Import Parse Template
-    HNMenuItem *importParseTemplateMenuItem = [[HNMenuItem alloc] initWithTitle: @"Parse Template" action: nil keyEquivalent: hnKeyEquivalentImportParseTemplateFiles keyEquivalentModifierMask: NSControlKeyMask | NSCommandKeyMask];
+    HNMenuItem *importParseTemplateMenuItem = [[HNMenuItem alloc] initWithTitle: @"Parse Template" action: nil keyEquivalent: hnKeyEquivalentImportParseTemplateFiles keyEquivalentModifierMask: NSEventModifierFlagControl | NSEventModifierFlagCommand];
     
     NSDictionary *importParseTemplateUserInfo = @{HNaddFilesFrom : HNAddFilesFromNSOpenPanel};
     [importParseTemplateMenuItem setUserInfo: importParseTemplateUserInfo];
@@ -183,7 +183,7 @@
     
     
     // Item 4 - Add New PARSE TEMPLATE
-    HNMenuItem *parseTemplateMenuItem = [[HNMenuItem alloc] initWithTitle: @"New Parse Template" action: nil keyEquivalent: hnKeyEquivalentNewParseTemplate keyEquivalentModifierMask: NSControlKeyMask | NSCommandKeyMask];
+    HNMenuItem *parseTemplateMenuItem = [[HNMenuItem alloc] initWithTitle: @"New Parse Template" action: nil keyEquivalent: hnKeyEquivalentNewParseTemplate keyEquivalentModifierMask: NSEventModifierFlagControl | NSEventModifierFlagCommand];
     
     NSDictionary *parseTemplateUserInfo = @{HNaddFilesFrom : HNAddFilesUsingBlankFile};
     [parseTemplateMenuItem setUserInfo: parseTemplateUserInfo];

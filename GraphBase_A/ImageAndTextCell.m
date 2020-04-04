@@ -110,7 +110,7 @@
 - (void)drawWithFrame:(NSRect)cellFrame inView:(NSView *)controlView {
     if (_image != nil) {
         NSRect imageFrame = [self imageRectForBounds:cellFrame];
-        [_image drawInRect:imageFrame fromRect:NSZeroRect operation:NSCompositeSourceOver fraction:1.0 respectFlipped:YES hints:nil];
+        [_image drawInRect:imageFrame fromRect:NSZeroRect operation:NSCompositingOperationSourceOver fraction:1.0 respectFlipped:YES hints:nil];
         NSInteger newX = NSMaxX(imageFrame) + 3;
         cellFrame.size.width = NSMaxX(cellFrame) - newX;
         cellFrame.origin.x = newX;
@@ -127,7 +127,7 @@
     return cellSize;
 }
 
-- (NSUInteger)hitTestForEvent:(NSEvent *)event inRect:(NSRect)cellFrame ofView:(NSView *)controlView {
+- (NSCellHitResult)hitTestForEvent:(NSEvent *)event inRect:(NSRect)cellFrame ofView:(NSView *)controlView {
     NSPoint point = [controlView convertPoint:[event locationInWindow] fromView:nil];
     // If we have an image, we need to see if the user clicked on the image portion.
     if (_image != nil) {

@@ -3,8 +3,8 @@
 #import <Cocoa/Cocoa.h>
 #import <AppKit/AppKit.h>
 #import <Foundation/Foundation.h>
-#import "DataGraph/Datagraph.h"
-
+//#import "DataGraph/Datagraph.h"
+#import <DataGraph/DataGraph.h>
 
 // String Constants
 #import "HNNSNotificationStrings.h"
